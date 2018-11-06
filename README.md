@@ -17,7 +17,7 @@ If you want to learn more about Eyelit, Eyelit Products and Eyelit Scenario mode
 The Eyelit Scenario Script extension is ready to use on the get go. There is no need for any additional configuration after installing the extension.
 
 ## Contributing
-This project welcomes contributions and suggestions. If you are willing to contribute, drop me a line at [meoeksch@gmail.com](mailto:moekesch@gmail.com).
+This project welcomes contributions and suggestions. If you are willing to contribute, drop me a line at [moekesch@gmail.com](mailto:moekesch@gmail.com).
 
 ## Known Issues
 - Syntax Highlighting is not yet available.
