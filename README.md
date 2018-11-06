@@ -1,5 +1,5 @@
 # Language support for Eyelit Scenario Script in VSCode
-This should provide every scenario noob as well as the nerdy scenario modeler with a solid list of auto-complete snippets and syntax highlighting to avoid commonly made errors or typos. As a list of basic views is provided with a short description, it might even help all noobs out there to identify the right view, at least for simple modeling tasks.
+This should provide every scenario noob as well as the nerdy scenario modeler with a solid list of auto-complete snippets and syntax highlighting to avoid commonly made errors or typos. As a list of basic views is provided with a short description, it might even help all noobs out there to identify the correct view and parameters to use.
 
 ## Features
 ### IntelliSense
@@ -24,5 +24,5 @@ This project welcomes contributions and suggestions. If you are willing to contr
 
 ## Release Notes
 ### Version 0.0.1
-- Initial project and repositor setup
+- Initial project and repository setup
 - Basic set of snippets
