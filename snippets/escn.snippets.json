@@ -547,20 +547,206 @@
     "IF_NULL": {
         "scope": "escn",
         "prefix": "IF_NULL",
-        "body": "IF_NULL(${1:valueToVerify}~${2:valueToReplace})$0",
+        "body": "IF_NULL(${1:ParameterToVerify}~${2:NewValue})$0",
         "description": "Set a parameter value if a given parameter resolves to \"null\"\nThe following example replaces the parameter SOME_VALUE/P with an empty string.\nExample: IF_NULL(REQ.SOME_VALUE/P~EMPTY_STRING)"
     },
     "CONCAT": {
         "scope": "escn",
         "prefix": "CONCAT",
-        "body": "CONCAT(${1:Argument} ${2:Argument})$0",
+        "body": "CONCAT(${1:Parameter} ${2:Parameter})$0",
         "description": "The CONCAT function returns a concatenation of all the supplied values.\n\nFor example: CONCAT(ARG1 ARG2 REQ.ARG3)\nThis would concatenate the value of the 3 arguments into a single string.\n\nHere is another example: OBJECT_ID / P = CONCAT(REQ.id~REQ.version)\nThis would concatenate the id from the request, the ~ character, and the version from the request into a string."
     },
     "COALESCE": {
         "scope": "escn",
         "prefix": "COALESCE",
-        "body": "COALESCE(${1:Argument} ${2:Argument})$0",
+        "body": "COALESCE(${1:Parameter} ${2:Parameter})$0",
         "description": "The COALESCE function returns a concatenation of all the supplied non - null values into a string.\n\nFor example: ATTR_LIST/P=COALESCE(REQ.LASTUSEDEQUIP/P SPACE REQ.LASTUSEDPTOOL/P SPACE REQ.LASTUSEDMEASTOOL/P)\nFor the 3 attributes listed, this would concatenate the attribute values that have been set on the object, and the SPACE values, into a string."
+    },
+    "TO_NUMBER": {
+        "scope": "escn",
+        "prefix": "TO_NUMBER",
+        "body": "TO_NUMBER(${1:Parameter})$0",
+        "description": "Converts the value to a number.\nExample: NUM_VALUE/P=TO_NUMBER(REQ.SOME_VALUE/P)"
+    },
+    "TO_INT": {
+        "scope": "escn",
+        "prefix": "TO_INT",
+        "body": "TO_INT(${1:Parameter})$0",
+        "description": "Converts the value to an Integer.\nExample: INT_VALUE/P=TO_INT(REQ.SOME_VALUE/P)"
+    },
+    "TO_STRING": {
+        "scope": "escn",
+        "prefix": "TO_STRING",
+        "body": "TO_STRING(${1:Parameter})$0",
+        "description": "Converts the value to an Integer.\nExample: STRING_VALUE/P=TO_STRING(REQ.SOME_VALUE/P)"
+    },
+    "TO_DATE": {
+        "scope": "escn",
+        "prefix": "TO_DATE",
+        "body": "TO_DATE(${1:Parameter})$0",
+        "description": "Converts the value to a Date.\nExample: SOME_DATE/P=TO_DATE(REQ.SOME_DATE_STRING/P)"
+    },
+    "TO_NAME_VALUE": {
+        "scope": "escn",
+        "prefix": "TO_NAME_VALUE",
+        "body": "TO_NAME_VALUE(${1:Object})$0",
+        "description": "Converts the given obkect to an XML Message.\nExample: XML/P=TO_NAME_VALUE(REQ.item)"
+    },
+    "TO_XML": {
+        "scope": "escn",
+        "prefix": "TO_NAME_XML.",
+        "body": "TO_XML.(${1:Object})$0",
+        "description": "Converts the value into an XML representation of the object, using the XMLBeanConverter.\nThe following example uses an item from the REQ Context to create an XML representation of it. Fields in the object will result in XML nodes names, their values will result in node values.\nREPLY_MSG/P=TO_XML.REQ.item"
+    },
+    "ADD_MSG": {
+        "scope": "escn",
+        "prefix": "ADD_MSG.",
+        "body": "ADD_MSG(MSG.${1:YourMessage}($0))",
+        "description": "Allows you to add messages to the triggering view.\n\nExample: ADD_MSG(MSG.SOME_STRING())\nThis would add a message to the request which can be useful for adding notifications on the client side."
+    },
+    "SPLIT_STRING": {
+        "scope": "escn",
+        "prefix": "SPLIT_STRING",
+        "body": "SPLIT_STRING(${1:String} ${2:SplitCharacter})$0",
+        "description": "Splits a given string into a Vector.\n\nExample: SOME_VECTOR/P=SPLIT_STRING(REQ.SOME_STRING/P COMMA)\nThis example splits a String at every occurrence of a comma \",\". Special characters can be escaped using \"\\\"."
+    },
+    "REPLACE_STRING": {
+        "scope": "escn",
+        "prefix": "REPLACE_STRING",
+        "body": "REPLACE_STRING(${1:String} ${2:toReplace} ${3:Replacement})$0",
+        "description": "Replaces every occurrence of a given string in a String.\n\nExample: SOME_STRING/P=REPLACE_STRING(REQ.SOME_STRING/P COMMA -)\nThis example replaces every occurrence of a comma \",\" with a hyphen \"-\". Special characters can be escaped using \"\\\"."
+    },
+    "NEW": {
+        "scope": "escn",
+        "prefix": "NEW",
+        "body": "NEW(${1:ClassName})$0",
+        "description": "Creates a new instance of the given object.\n\nExample: EMPTY_VECTOR/P=NEW(java.util.Vector)"
+    },
+    "ADD": {
+        "scope": "escn",
+        "prefix": "ADD",
+        "body": "ADD(${1:ListItem} ${1:Object})$0",
+        "description": "Adds an Object to a List.\n\nExample: MY_VECTOR/P=ADD(REQ.MY_VECTOR/P REQ.LOT/P)"
+    },
+    "GET": {
+        "scope": "escn",
+        "prefix": "GET",
+        "body": "GET(${1:Object} ${2:Property})$0",
+        "description": "Retrieves an object property value or an item from a list by its index.\\n\nExample 1: QTY/P=GET(REQ.LOT/P subQty)\nExample 2: ELEMENT/P=GET(REQ.MZ_VECTOR/P 0)"
+    },
+    "PUT": {
+        "scope": "escn",
+        "prefix": "PUT",
+        "body": "PUT(${1:List} ${2:Key} ${3:Value})$0",
+        "description": "Adds an Element to a List Object.\\n\nExample: MY_LIST/P=PUT(REQ.MY_LIST/P REQ.KEY/P REQ.VALUE/P)"
+    },
+    "SET": {
+        "scope": "escn",
+        "prefix": "SET",
+        "body": "SET(${1:Object} ${2:Property} ${3:Value})$0",
+        "description": "Set the value of an Object Property.\\n\nExample: MY_ITEM/P=PUT(REQ.MY_ITEM/P subQty 1)"
+    },
+    "PEEK": {
+        "scope": "escn",
+        "prefix": "PEEK",
+        "body": "PEEK(${1:List})$0",
+        "description": "PEEK returns the top item from a stack without removing it.\nExample: MY_ITEM/P=PEEK(REQ.MY_LIST/P)"
+    },
+    "POP": {
+        "scope": "escn",
+        "prefix": "POP",
+        "body": "POP(${1:List})$0",
+        "description": "POP returns the top item from a stack and removesit.\nExample: MY_ITEM/P=POP(REQ.MY_LIST/P)"
+    },
+    "PUSH": {
+        "scope": "escn",
+        "prefix": "PUSH",
+        "body": "PUSH(${1:Item} ${2:List})$0",
+        "description": "PUSH adds an item to the top of a stack.\nExample: MY_LIST/P=PUSH(REQ.ITEM/P REQ.MY_LIST/P)"
+    },
+    "DELAY": {
+        "scope": "escn",
+        "prefix": "DELAY",
+        "body": "DELAY(${1:MiliSeconds})$0",
+        "description": "Delays the execution by the given number of miliseconds.\n\nExample: DELAY(5000)\nAdds a wait time of 5 seconds."
+    },
+    "DIV": {
+        "scope": "escn",
+        "prefix": "DIV",
+        "body": "DIV(${1:Argument1} ${2:Argument2})$0",
+        "description": "Mathematical function that returns a whole number by dividing Argument1 by Argument2.\n\nExample: NUM/P=DIV(10 3)\nReturns a result of 3."
+    },
+    "MOD": {
+        "scope": "escn",
+        "prefix": "MOD",
+        "body": "MOD(${1:Argument1} ${2:Argument2})$0",
+        "description": "Mathematical function that divides Argument1 by Argument2 and returns the remainder.\n\nExample: REMAINDER/P=MOD(10 3)\nReturns a result of 1."
+    },
+    "CURRENT_POSITION": {
+        "scope": "escn",
+        "prefix": "CURRENT_POSITION",
+        "body": "CURRENT_POSITION(${1:CurrentPosition} ${2:Level})$0",
+        "description": "Allows you to access the elements within a Lot's current position string.\n\nExample: L7_STEP=CURRENT_POSITION(EVT.CP 7)\nThis would return the 7 th level element from the top within the position string. To access the elements from the bottom up, the second argument would be a negative value, starting with -1 for the last element.\nThe element could then be accessed to get at the step of the position:\nSTEP_NAME/P=REQ.L7_STEP.step.objectId/P\nSTEP_VERSION/P=REQ.L7_STEP.step.objectVersion/P\nThis can be used for any position string in the system (e.g. timers, exception position, rework position, current position etc.)."
+    },
+    "SIZE": {
+        "scope": "escn",
+        "prefix": "SIZE",
+        "body": "SIZE(${1:List})$0",
+        "description": "Returns the size of a list or array.\nExample: CNT/P=SIZE(REQ.MY_VECTOR/P)"
+    },
+    "LENGTH": {
+        "scope": "escn",
+        "prefix": "LENGTH",
+        "body": "LENGTH(${1:String})$0",
+        "description": "Returns the length of a String.\nExample: CNT/P=SIZE(REQ.MY_STRING/P)"
+    },
+    "INCR": {
+        "scope": "escn",
+        "prefix": "INCR",
+        "body": "INCR(${1:Argument1} ${2:Argument2})$0",
+        "description": "Increments the value of a parameter by the amount specified.\nWhen the second argument is not specified the increment is 1.\n\nExample: NUM/P=INCR(REQ.NUM/P 3)"
+    },
+    "DECR": {
+        "scope": "escn",
+        "prefix": "DECR",
+        "body": "DECR(${1:Argument1} ${2:Argument2})$0",
+        "description": "Decrements the value of a parameter by the amount specified.\nWhen the second argument is not specified the increment is 1.\n\nExample: NUM/P=DECR(REQ.NUM/P 3)"
+    },
+    "JAXB": {
+        "scope": "escn",
+        "prefix": "JAXB",
+        "body": "JAXB(${1:Object})$0",
+        "description": "Converts the object in the argument into an XML object based on the JAXB notations in the object implementation.\nReturns an XML string representing the object.\n\nExample: MY_STRING/P=JAXB(REQ.LOT/P)"
+    },
+    "XPATH": {
+        "scope": "escn",
+        "prefix": "XPATH",
+        "body": "XPATH(${1:xmlNode} ${2:xPath})$0",
+        "description": "Allows you to configure an xPath Query String to retrieve a value from an XML Node.\nThe following example retrieves a value matching the XPath Query Syntax standard.\n\nExample: LOT_ID/P=XPATH(REQ.XML_NODE/P MSG.XPATHVALUEFORNAME(mfdUnitId))"
+    },
+    "LOG": {
+        "scope": "escn",
+        "prefix": "LOG",
+        "body": "LOG(${1:Argument1})$0",
+        "description": "Allows you to log any object or value to a custom defined log file. THis log file requires the proper Log4J configuration in place.\nThe function can take a list of areguments.\n\nExample: LOG(Hello REQ.MY_NAME/P)"
+    },
+    "TO_JSON": {
+        "scope": "escn",
+        "prefix": "TO_JSON",
+        "body": "TO_JSON(${1:Object})$0",
+        "description": "Converts the Object given to a JSON String.\nExample: JSTRING/P=TO_JSON(REQ.LOT/P)"
+    },
+    "SORT": {
+        "scope": "escn",
+        "prefix": "SORT",
+        "body": "SORT(${1:List} ${2:SortArgument})$0",
+        "description": "Sorts a given list (List) by one or multiple properties (SortArgument 2 to SortArgument n) and returns it.\n\nExample 1: MY_VECTOR/P=SORT(REQ.MY_VECTOR/P refOrder)\nExample 2: MY_VECTOR/P=SORT(REQ.MY_VECTOR/P refOrder refObjectId)"
+    },
+    "ADD_ALL": {
+        "scope": "escn",
+        "prefix": "ADD_ALL",
+        "body": "ADD_ALL(${1:List1} ${2:List2})$0",
+        "description": "Adds all of the elements in List1 into List2. Both lists must implement the List interface.\nExample: MY_COMPLETE_LIST/P=ADD_ALL(REQ.MY_COMPLETE_LIST/P REQ.MY_TMP_LIST/P)"
     },
 
     "PACKAGE_VIEW": {

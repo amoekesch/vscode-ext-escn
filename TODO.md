@@ -1,7 +1,6 @@
 # TODO List
 
 ## Project
-* Setup git
 * Invite Mario and Emmanuel
 * Add Eyelit Icon for Marketplace
 * Create packaging script
@@ -11,44 +10,8 @@
 * do it all
 
 ## Snippets
-* Add remaining functions (see documentation section Keywords)
-  * ADDMSG - Allows you to add messages to the triggering view.\n\ nExample: ADD_MSG(MSG.SOME_STRING())\ nThis would add a message to the request which can be useful for adding notifications on the client side.
-  *TO_NUMBER
-  *TO_DATE
-  *TO_INT
-  *TO_STRING
-  *TO_NAME_VALUE
-  *TO_XML
-  *TO_XML.RES
-  *SPLIT_STRING
-  *REPLACE_STRING
-  *REPLACE_SPC_CHAR
-  *TO_NAME_VALUE
-  *NEW
-  *ADD
-  *SET
-  *GET
-  *PUT
-  *PEEK
-  *POP
-  *PUSH
-  *DELAY
-  *DIV
-  *MOD
-  *CURRENT_POSITION
-  *SIZE
-  *LENGTH
-  *LOG
-  *TO_JSON
-  *SORT
-  *ADD_ALL
-  *IS_POSITION_BEFORE
-  *IS_POSITION_AFTER
-  *COPY_FIELDS
-  *NESTED_LIST
-  *XPATH
-  *JAXB
-  *DECR
+* Add Agent classes
+* Add DOM Handling
 * Add common views (multi-line; common parameters, common RES access)
   * com.eyelit.ads.importer.view.ADSChangeToolStatusView
   * com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView
