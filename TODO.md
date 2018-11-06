@@ -10,7 +10,6 @@
 * do it all
 
 ## Snippets
-* Add Agent classes
 * Add DOM Handling
 * Add common views (multi-line; common parameters, common RES access)
   * com.eyelit.ads.importer.view.ADSChangeToolStatusView
