@@ -1,0 +1,30 @@
+{
+    "name": "eyelit-scenario-script",
+    "displayName": "Eyelit Scenario Script",
+    "description": "Language Support for the Eyelit Scenario Engine",
+    "version": "0.0.1",
+    "publisher": "andreas-moekesch",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "escn",
+            "aliases": ["Eyelit Scenario Script", "escn"],
+            "extensions": [".escn",".scn"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "escn",
+            "scopeName": "source.eyelit.scenario.escn",
+            "path": "./syntaxes/escn.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "escn",
+            "path": "./snippets/escn.snippets.json"
+        }]
+    }
+}
