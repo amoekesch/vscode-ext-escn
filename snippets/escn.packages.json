@@ -1,17 +1,17 @@
 {
-    "PACKAGE_VIEW": {
+    "Package com.eyelit.view": {
         "scope": "escn",
         "prefix": "com.eyelit.view.",
         "body": "com.eyelit.view.$0",
         "description": "Views Package\n\n"
     },
-    "PACKAGE_ITEM": {
+    "Package com.eyelit.view.item": {
         "scope": "escn",
         "prefix": "com.eyelit.view.item.",
         "body": "com.eyelit.view.item.$0",
         "description": "Item Classes Package\n\n"
     },
-    "PACKAGE_ADS": {
+    "Package com.eyelit.ads.importer.view": {
         "scope": "escn",
         "prefix": "com.eyelit.ads.importer.view.",
         "body": "com.eyelit.ads.importer.view.$0",

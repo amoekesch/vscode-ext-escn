@@ -1,5 +1,5 @@
 {
-    "EXE.ADSChangeToolStatusView": {
+    "EXE ADSChangeToolStatusView": {
         "scope": "escn",
         "prefix": "ADSChangeToolStatusView",
         "body": [
@@ -8,7 +8,7 @@
         ],
         "description": "Changes the status if a Device (only supports Device not genereal Resources).\nThe property subState is optional.\n\n"
     },
-    "EXE.ADSCreateMfdUnitFutureHoldView": {
+    "EXE ADSCreateMfdUnitFutureHoldView": {
         "scope": "escn",
         "prefix": "ADSCreateMfdUnitFutureHoldView",
         "body": [
@@ -16,5 +16,14 @@
             "id=${1:LotID},stage=${2:StageID},stepId=${3:StepID},onEntry=${4:(true,false)},holdCode=${5:HoldCode},description=${6:Comment}$0"
         ],
         "description": "Adds a future hold the the given lot at when the lot enters (onEntry=true) or tries to exit (onEntry=false) the given stage and step combination.\n\n"
+    },
+    "EXE ADSPerformMfdUnitScrapView": {
+        "scope": "escn",
+        "prefix": "ADSPerformMfdUnitScrapView",
+        "body": [
+            "com.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView",
+            "id=${1:LotID},targetContainer=MfdUnit,code=${2:ScrapCode},quantity=${3:Quantity},childUnitsString=${4:Components}$0"
+        ],
+        "description": "Scrap components in a Lot. Quantity is mandatory. For unidentified material the View property childUnitsString (comma separated list: e.g. LOT001.01,LOT001.02) is optional.\n\nExample 1 - Identified Material:\ncom.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,code=MON,quantity=2,childUnitsString=REQ.COMPONENTS/P\n\nExample 2 - Un-identified Material:\ncom.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,code=MON,quantity=2\n\n"
     }
 }

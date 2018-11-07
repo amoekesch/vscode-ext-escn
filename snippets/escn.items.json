@@ -1,365 +1,365 @@
 {
-    "ITEM_CLASS_ObjectReferenceItem": {
+    "Item ObjectReferenceItem": {
         "scope": "escn",
         "prefix": "ObjectReferenceItem",
         "body": "com.eyelit.view.item.ObjectReferenceItem$0",
         "description": "Item Class for ObjectReferenceItem\n\n"
     },
-    "ITEM_CLASS_ARDetailItem": {
+    "Item ARDetailItem": {
         "scope": "escn",
         "prefix": "ARDetailItem",
         "body": "com.eyelit.view.item.ARDetailItem$0",
         "description": "Item Class for ARDetailItem\n\n"
     },
-    "ITEM_CLASS_ARStatusDetailItem": {
+    "Item ARStatusDetailItem": {
         "scope": "escn",
         "prefix": "ARStatusDetailItem",
         "body": "com.eyelit.view.item.ARStatusDetailItem$0",
         "description": "Item Class for ARStatusDetailItem\n\n"
     },
-    "ITEM_CLASS_ARTypeDetailItem": {
+    "Item ARTypeDetailItem": {
         "scope": "escn",
         "prefix": "ARTypeDetailItem",
         "body": "com.eyelit.view.item.ARTypeDetailItem$0",
         "description": "Item Class for ARTypeDetailItem\n\n"
     },
-    "ITEM_CLASS_AttributeItem": {
+    "Item AttributeItem": {
         "scope": "escn",
         "prefix": "AttributeItem",
         "body": "com.eyelit.view.item.AttributeItem$0",
         "description": "Item Class for AttributeItem\n\n"
     },
-    "ITEM_CLASS_CAPADetailItem": {
+    "Item CAPADetailItem": {
         "scope": "escn",
         "prefix": "CAPADetailItem",
         "body": "com.eyelit.view.item.CAPADetailItem$0",
         "description": "Item Class for CAPADetailItem\n\n"
     },
-    "ITEM_CLASS_CassetteDetailItem": {
+    "Item CassetteDetailItem": {
         "scope": "escn",
         "prefix": "CassetteDetailItem",
         "body": "com.eyelit.view.item.CassetteDetailItem$0",
         "description": "Item Class for CassetteDetailItem\n\n"
     },
-    "ITEM_CLASS_CassetteStateDetailItem": {
+    "Item CassetteStateDetailItem": {
         "scope": "escn",
         "prefix": "CassetteStateDetailItem",
         "body": "com.eyelit.view.item.CassetteStateDetailItem$0",
         "description": "Item Class for CassetteStateDetailItem\n\n"
     },
-    "ITEM_CLASS_CassetteTypeDetailItem": {
+    "Item CassetteTypeDetailItem": {
         "scope": "escn",
         "prefix": "CassetteTypeDetailItem",
         "body": "com.eyelit.view.item.CassetteTypeDetailItem$0",
         "description": "Item Class for CassetteTypeDetailItem\n\n"
     },
-    "ITEM_CLASS_ConditionDetailItem": {
+    "Item ConditionDetailItem": {
         "scope": "escn",
         "prefix": "ConditionDetailItem",
         "body": "com.eyelit.view.item.ConditionDetailItem$0",
         "description": "Item Class for ConditionDetailItem\n\n"
     },
-    "ITEM_CLASS_ConsumableItem": {
+    "Item ConsumableItem": {
         "scope": "escn",
         "prefix": "ConsumableItem",
         "body": "com.eyelit.view.item.ConsumableItem$0",
         "description": "Item Class for ConsumableItem\n\n"
     },
-    "ITEM_CLASS_DatabaseColumnItem": {
+    "Item DatabaseColumnItem": {
         "scope": "escn",
         "prefix": "DatabaseColumnItem",
         "body": "com.eyelit.view.item.DatabaseColumnItem$0",
         "description": "Item Class for DatabaseColumnItem\n\n"
     },
-    "ITEM_CLASS_DatabaseTableItem": {
+    "Item DatabaseTableItem": {
         "scope": "escn",
         "prefix": "DatabaseTableItem",
         "body": "com.eyelit.view.item.DatabaseTableItem$0",
         "description": "Item Class for DatabaseTableItem\n\n"
     },
-    "ITEM_CLASS_DataSpecificationsMinMaxItem": {
+    "Item DataSpecificationsMinMaxItem": {
         "scope": "escn",
         "prefix": "DataSpecificationsMinMaxItem",
         "body": "com.eyelit.view.item.DataSpecificationsMinMaxItem$0",
         "description": "Item Class for DataSpecificationsMinMaxItem\n\n"
     },
-    "ITEM_CLASS_DeviceDetailItem": {
+    "Item DeviceDetailItem": {
         "scope": "escn",
         "prefix": "DeviceDetailItem",
         "body": "com.eyelit.view.item.DeviceDetailItem$0",
         "description": "Item Class for DeviceDetailItem\n\n"
     },
-    "ITEM_CLASS_DispatchParameterDetailItem": {
+    "Item DispatchParameterDetailItem": {
         "scope": "escn",
         "prefix": "DispatchParameterDetailItem",
         "body": "com.eyelit.view.item.DispatchParameterDetailItem$0",
         "description": "Item Class for DispatchParameterDetailItem\n\n"
     },
-    "ITEM_CLASS_DispatchRuleItem": {
+    "Item DispatchRuleItem": {
         "scope": "escn",
         "prefix": "DispatchRuleItem",
         "body": "com.eyelit.view.item.DispatchRuleItem$0",
         "description": "Item Class for DispatchRuleItem\n\n"
     },
-    "ITEM_CLASS_EncapEventParameterItem": {
+    "Item EncapEventParameterItem": {
         "scope": "escn",
         "prefix": "EncapEventParameterItem",
         "body": "com.eyelit.view.item.EncapEventParameterItem$0",
         "description": "Item Class for EncapEventParameterItem\n\n"
     },
-    "ITEM_CLASS_EncapsulatedEventItem": {
+    "Item EncapsulatedEventItem": {
         "scope": "escn",
         "prefix": "EncapsulatedEventItem",
         "body": "com.eyelit.view.item.EncapsulatedEventItem$0",
         "description": "Item Class for EncapsulatedEventItem\n\n"
     },
-    "ITEM_CLASS_EquipmentCategoryItem": {
+    "Item EquipmentCategoryItem": {
         "scope": "escn",
         "prefix": "EquipmentCategoryItem",
         "body": "com.eyelit.view.item.EquipmentCategoryItem$0",
         "description": "Item Class for EquipmentCategoryItem\n\n"
     },
-    "ITEM_CLASS_FactoryCalendarDefineItem": {
+    "Item FactoryCalendarDefineItem": {
         "scope": "escn",
         "prefix": "FactoryCalendarDefineItem",
         "body": "com.eyelit.view.item.FactoryCalendarDefineItem$0",
         "description": "Item Class for FactoryCalendarDefineItem\n\n"
     },
-    "ITEM_CLASS_FormTemplateItem": {
+    "Item FormTemplateItem": {
         "scope": "escn",
         "prefix": "FormTemplateItem",
         "body": "com.eyelit.view.item.FormTemplateItem$0",
         "description": "Item Class for FormTemplateItem\n\n"
     },
-    "ITEM_CLASS_FutureActionItem": {
+    "Item FutureActionItem": {
         "scope": "escn",
         "prefix": "FutureActionItem",
         "body": "com.eyelit.view.item.FutureActionItem$0",
         "description": "Item Class for FutureActionItem\n\n"
     },
-    "ITEM_CLASS_FXMLDetailItem": {
+    "Item FXMLDetailItem": {
         "scope": "escn",
         "prefix": "FXMLDetailItem",
         "body": "com.eyelit.view.item.FXMLDetailItem$0",
         "description": "Item Class for FXMLDetailItem\n\n"
     },
-    "ITEM_CLASS_GeneralResourceStateDetailItem": {
+    "Item GeneralResourceStateDetailItem": {
         "scope": "escn",
         "prefix": "GeneralResourceStateDetailItem",
         "body": "com.eyelit.view.item.GeneralResourceStateDetailItem$0",
         "description": "Item Class for GeneralResourceStateDetailItem\n\n"
     },
-    "ITEM_CLASS_InhibitionDetailItem": {
+    "Item InhibitionDetailItem": {
         "scope": "escn",
         "prefix": "InhibitionDetailItem",
         "body": "com.eyelit.view.item.InhibitionDetailItem$0",
         "description": "Item Class for InhibitionDetailItem\n\n"
     },
-    "ITEM_CLASS_JobDetailItem": {
+    "Item JobDetailItem": {
         "scope": "escn",
         "prefix": "JobDetailItem",
         "body": "com.eyelit.view.item.JobDetailItem$0",
         "description": "Item Class for JobDetailItem\n\n"
     },
-    "ITEM_CLASS_JobSchedDetailItem": {
+    "Item JobSchedDetailItem": {
         "scope": "escn",
         "prefix": "JobSchedDetailItem",
         "body": "com.eyelit.view.item.JobSchedDetailItem$0",
         "description": "Item Class for JobSchedDetailItem\n\n"
     },
-    "ITEM_CLASS_MfdUnitDetailItem": {
+    "Item MfdUnitDetailItem": {
         "scope": "escn",
         "prefix": "MfdUnitDetailItem",
         "body": "com.eyelit.view.item.MfdUnitDetailItem$0",
         "description": "Item Class for MfdUnitDetailItem\n\n"
     },
-    "ITEM_CLASS_ObjectDetailItem": {
+    "Item ObjectDetailItem": {
         "scope": "escn",
         "prefix": "ObjectDetailItem",
         "body": "com.eyelit.view.item.ObjectDetailItem$0",
         "description": "Item Class for ObjectDetailItem\n\n"
     },
-    "ITEM_CLASS_OperationDetailItem": {
+    "Item OperationDetailItem": {
         "scope": "escn",
         "prefix": "OperationDetailItem",
         "body": "com.eyelit.view.item.OperationDetailItem$0",
         "description": "Item Class for OperationDetailItem\n\n"
     },
-    "ITEM_CLASS_ProductDetailItem": {
+    "Item ProductDetailItem": {
         "scope": "escn",
         "prefix": "ProductDetailItem",
         "body": "com.eyelit.view.item.ProductDetailItem$0",
         "description": "Item Class for ProductDetailItem\n\n"
     },
-    "ITEM_CLASS_QPARStatusDetailItem": {
+    "Item QPARStatusDetailItem": {
         "scope": "escn",
         "prefix": "QPARStatusDetailItem",
         "body": "com.eyelit.view.item.QPARStatusDetailItem$0",
         "description": "Item Class for QPARStatusDetailItem\n\n"
     },
-    "ITEM_CLASS_QparTypeItem": {
+    "Item QparTypeItem": {
         "scope": "escn",
         "prefix": "QparTypeItem",
         "body": "com.eyelit.view.item.QparTypeItem$0",
         "description": "Item Class for QparTypeItem\n\n"
     },
-    "ITEM_CLASS_QueryDetailItem": {
+    "Item QueryDetailItem": {
         "scope": "escn",
         "prefix": "QueryDetailItem",
         "body": "com.eyelit.view.item.QueryDetailItem$0",
         "description": "Item Class for QueryDetailItem\n\n"
     },
-    "ITEM_CLASS_RDADetailItem": {
+    "Item RDADetailItem": {
         "scope": "escn",
         "prefix": "RDADetailItem",
         "body": "com.eyelit.view.item.RDADetailItem$0",
         "description": "Item Class for RDADetailItem\n\n"
     },
-    "ITEM_CLASS_RecipeDetailItem": {
+    "Item RecipeDetailItem": {
         "scope": "escn",
         "prefix": "RecipeDetailItem",
         "body": "com.eyelit.view.item.RecipeDetailItem$0",
         "description": "Item Class for RecipeDetailItem\n\n"
     },
-    "ITEM_CLASS_RecipeTemplateItem": {
+    "Item RecipeTemplateItem": {
         "scope": "escn",
         "prefix": "RecipeTemplateItem",
         "body": "com.eyelit.view.item.RecipeTemplateItem$0",
         "description": "Item Class for RecipeTemplateItem\n\n"
     },
-    "ITEM_CLASS_ReportDetailItem": {
+    "Item ReportDetailItem": {
         "scope": "escn",
         "prefix": "ReportDetailItem",
         "body": "com.eyelit.view.item.ReportDetailItem$0",
         "description": "Item Class for ReportDetailItem\n\n"
     },
-    "ITEM_CLASS_ReservationDetailItem": {
+    "Item ReservationDetailItem": {
         "scope": "escn",
         "prefix": "ReservationDetailItem",
         "body": "com.eyelit.view.item.ReservationDetailItem$0",
         "description": "Item Class for ReservationDetailItem\n\n"
     },
-    "ITEM_CLASS_ResourceDetailItem": {
+    "Item ResourceDetailItem": {
         "scope": "escn",
         "prefix": "ResourceDetailItem",
         "body": "com.eyelit.view.item.ResourceDetailItem$0",
         "description": "Item Class for ResourceDetailItem\n\n"
     },
-    "ITEM_CLASS_ResourcePriorityDetailItem": {
+    "Item ResourcePriorityDetailItem": {
         "scope": "escn",
         "prefix": "ResourcePriorityDetailItem",
         "body": "com.eyelit.view.item.ResourcePriorityDetailItem$0",
         "description": "Item Class for ResourcePriorityDetailItem\n\n"
     },
-    "ITEM_CLASS_ResourceStateDetailItem": {
+    "Item ResourceStateDetailItem": {
         "scope": "escn",
         "prefix": "ResourceStateDetailItem",
         "body": "com.eyelit.view.item.ResourceStateDetailItem$0",
         "description": "Item Class for ResourceStateDetailItem\n\n"
     },
-    "ITEM_CLASS_ReticleDetailItem": {
+    "Item ReticleDetailItem": {
         "scope": "escn",
         "prefix": "ReticleDetailItem",
         "body": "com.eyelit.view.item.ReticleDetailItem$0",
         "description": "Item Class for ReticleDetailItem\n\n"
     },
-    "ITEM_CLASS_SamplingPlanDetailItem": {
+    "Item SamplingPlanDetailItem": {
         "scope": "escn",
         "prefix": "SamplingPlanDetailItem",
         "body": "com.eyelit.view.item.SamplingPlanDetailItem$0",
         "description": "Item Class for SamplingPlanDetailItem\n\n"
     },
-    "ITEM_CLASS_ScenarioDetailItem": {
+    "Item ScenarioDetailItem": {
         "scope": "escn",
         "prefix": "ScenarioDetailItem",
         "body": "com.eyelit.view.item.ScenarioDetailItem$0",
         "description": "Item Class for ScenarioDetailItem\n\n"
     },
-    "ITEM_CLASS_SignatureHubItem": {
+    "Item SignatureHubItem": {
         "scope": "escn",
         "prefix": "SignatureHubItem",
         "body": "com.eyelit.view.item.SignatureHubItem$0",
         "description": "Item Class for SignatureHubItem\n\n"
     },
-    "ITEM_CLASS_SparePartDetailItem": {
+    "Item SparePartDetailItem": {
         "scope": "escn",
         "prefix": "SparePartDetailItem",
         "body": "com.eyelit.view.item.SparePartDetailItem$0",
         "description": "Item Class for SparePartDetailItem\n\n"
     },
-    "ITEM_CLASS_StepDetailItem": {
+    "Item StepDetailItem": {
         "scope": "escn",
         "prefix": "StepDetailItem",
         "body": "com.eyelit.view.item.StepDetailItem$0",
         "description": "Item Class for StepDetailItem\n\n"
     },
-    "ITEM_CLASS_SWRDetailItem": {
+    "Item SWRDetailItem": {
         "scope": "escn",
         "prefix": "SWRDetailItem",
         "body": "com.eyelit.view.item.SWRDetailItem$0",
         "description": "Item Class for SWRDetailItem\n\n"
     },
-    "ITEM_CLASS_SWRSetLotStructureItem": {
+    "Item SWRSetLotStructureItem": {
         "scope": "escn",
         "prefix": "SWRSetLotStructureItem",
         "body": "com.eyelit.view.item.SWRSetLotStructureItem$0",
         "description": "Item Class for SWRSetLotStructureItem\n\n"
     },
-    "ITEM_CLASS_SWRStepStructureItem": {
+    "Item SWRStepStructureItem": {
         "scope": "escn",
         "prefix": "SWRStepStructureItem",
         "body": "com.eyelit.view.item.SWRStepStructureItem$0",
         "description": "Item Class for SWRStepStructureItem\n\n"
     },
-    "ITEM_CLASS_ToolRunDatasetDetailItem": {
+    "Item ToolRunDatasetDetailItem": {
         "scope": "escn",
         "prefix": "ToolRunDatasetDetailItem",
         "body": "com.eyelit.view.item.ToolRunDatasetDetailItem$0",
         "description": "Item Class for ToolRunDatasetDetailItem\n\n"
     },
-    "ITEM_CLASS_ToolTransitionItem": {
+    "Item ToolTransitionItem": {
         "scope": "escn",
         "prefix": "ToolTransitionItem",
         "body": "com.eyelit.view.item.ToolTransitionItem$0",
         "description": "Item Class for ToolTransitionItem\n\n"
     },
-    "ITEM_CLASS_TrainingDocumentDetailItem": {
+    "Item TrainingDocumentDetailItem": {
         "scope": "escn",
         "prefix": "TrainingDocumentDetailItem",
         "body": "com.eyelit.view.item.TrainingDocumentDetailItem$0",
         "description": "Item Class for TrainingDocumentDetailItem\n\n"
     },
-    "ITEM_CLASS_TrainingStateDetailItem": {
+    "Item TrainingStateDetailItem": {
         "scope": "escn",
         "prefix": "TrainingStateDetailItem",
         "body": "com.eyelit.view.item.TrainingStateDetailItem$0",
         "description": "Item Class for TrainingStateDetailItem\n\n"
     },
-    "ITEM_CLASS_UIEventItem": {
+    "Item UIEventItem": {
         "scope": "escn",
         "prefix": "UIEventItem",
         "body": "com.eyelit.view.item.UIEventItem$0",
         "description": "Item Class for UIEventItem\n\n"
     },
-    "ITEM_CLASS_UserDetailItem": {
+    "Item UserDetailItem": {
         "scope": "escn",
         "prefix": "UserDetailItem",
         "body": "com.eyelit.view.item.UserDetailItem$0",
         "description": "Item Class for UserDetailItem\n\n"
     },
-    "ITEM_CLASS_VariableItem": {
+    "Item VariableItem": {
         "scope": "escn",
         "prefix": "VariableItem",
         "body": "com.eyelit.view.item.VariableItem$0",
         "description": "Item Class for VariableItem\n\n"
     },
-    "ITEM_CLASS_WorkOrderElementItem": {
+    "Item WorkOrderElementItem": {
         "scope": "escn",
         "prefix": "WorkOrderElementItem",
         "body": "com.eyelit.view.item.WorkOrderElementItem$0",
         "description": "Item Class for WorkOrderElementItem\n\n"
     },
-    "ITEM_CLASS_WorkOrderItem": {
+    "Item WorkOrderItem": {
         "scope": "escn",
         "prefix": "WorkOrderItem",
         "body": "com.eyelit.view.item.WorkOrderItem$0",
