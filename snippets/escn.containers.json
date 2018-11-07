@@ -1,1157 +1,1157 @@
 {
-    "TARGET_CONTAINER_Action": {
+    "TARGET_CONTAINER.Action": {
         "scope": "escn",
         "prefix": "Action",
         "body": "Action$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Action_Category": {
+    "TARGET_CONTAINER.Action_Category": {
         "scope": "escn",
         "prefix": "Action_Category",
         "body": "Action_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ActionHub": {
+    "TARGET_CONTAINER.ActionHub": {
         "scope": "escn",
         "prefix": "ActionHub",
         "body": "ActionHub$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ActionRequestContainer": {
+    "TARGET_CONTAINER.ActionRequestContainer": {
         "scope": "escn",
         "prefix": "ActionRequestContainer",
         "body": "ActionRequestContainer$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ActionRequestTypeContainer": {
+    "TARGET_CONTAINER.ActionRequestTypeContainer": {
         "scope": "escn",
         "prefix": "ActionRequestTypeContainer",
         "body": "ActionRequestTypeContainer$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ActionType": {
+    "TARGET_CONTAINER.ActionType": {
         "scope": "escn",
         "prefix": "ActionType",
         "body": "ActionType$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Activity": {
+    "TARGET_CONTAINER.Activity": {
         "scope": "escn",
         "prefix": "Activity",
         "body": "Activity$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Agent": {
+    "TARGET_CONTAINER.Agent": {
         "scope": "escn",
         "prefix": "Agent",
         "body": "Agent$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_AR_Status": {
+    "TARGET_CONTAINER.AR_Status": {
         "scope": "escn",
         "prefix": "AR_Status",
         "body": "AR_Status$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ArchivePurge": {
+    "TARGET_CONTAINER.ArchivePurge": {
         "scope": "escn",
         "prefix": "ArchivePurge",
         "body": "ArchivePurge$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ArchiveRun": {
+    "TARGET_CONTAINER.ArchiveRun": {
         "scope": "escn",
         "prefix": "ArchiveRun",
         "body": "ArchiveRun$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Area": {
+    "TARGET_CONTAINER.Area": {
         "scope": "escn",
         "prefix": "Area",
         "body": "Area$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Attribute": {
+    "TARGET_CONTAINER.Attribute": {
         "scope": "escn",
         "prefix": "Attribute",
         "body": "Attribute$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Basket": {
+    "TARGET_CONTAINER.Basket": {
         "scope": "escn",
         "prefix": "Basket",
         "body": "Basket$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Bom": {
+    "TARGET_CONTAINER.Bom": {
         "scope": "escn",
         "prefix": "Bom",
         "body": "Bom$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_BOMCategory": {
+    "TARGET_CONTAINER.BOMCategory": {
         "scope": "escn",
         "prefix": "BOMCategory",
         "body": "BOMCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Calendar": {
+    "TARGET_CONTAINER.Calendar": {
         "scope": "escn",
         "prefix": "Calendar",
         "body": "Calendar$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CAP": {
+    "TARGET_CONTAINER.CAP": {
         "scope": "escn",
         "prefix": "CAP",
         "body": "CAP$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CAPA": {
+    "TARGET_CONTAINER.CAPA": {
         "scope": "escn",
         "prefix": "CAPA",
         "body": "CAPA$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Capa_Category": {
+    "TARGET_CONTAINER.Capa_Category": {
         "scope": "escn",
         "prefix": "Capa_Category",
         "body": "Capa_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Capa_Type": {
+    "TARGET_CONTAINER.Capa_Type": {
         "scope": "escn",
         "prefix": "Capa_Type",
         "body": "Capa_Type$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Case": {
+    "TARGET_CONTAINER.Case": {
         "scope": "escn",
         "prefix": "Case",
         "body": "Case$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CaseList": {
+    "TARGET_CONTAINER.CaseList": {
         "scope": "escn",
         "prefix": "CaseList",
         "body": "CaseList$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Cassette": {
+    "TARGET_CONTAINER.Cassette": {
         "scope": "escn",
         "prefix": "Cassette",
         "body": "Cassette$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Cassette_Category": {
+    "TARGET_CONTAINER.Cassette_Category": {
         "scope": "escn",
         "prefix": "Cassette_Category",
         "body": "Cassette_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CassetteState": {
+    "TARGET_CONTAINER.CassetteState": {
         "scope": "escn",
         "prefix": "CassetteState",
         "body": "CassetteState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CassetteType": {
+    "TARGET_CONTAINER.CassetteType": {
         "scope": "escn",
         "prefix": "CassetteType",
         "body": "CassetteType$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Category_Type": {
+    "TARGET_CONTAINER.Category_Type": {
         "scope": "escn",
         "prefix": "Category_Type",
         "body": "Category_Type$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ChildConsumableUnit": {
+    "TARGET_CONTAINER.ChildConsumableUnit": {
         "scope": "escn",
         "prefix": "ChildConsumableUnit",
         "body": "ChildConsumableUnit$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Condition": {
+    "TARGET_CONTAINER.Condition": {
         "scope": "escn",
         "prefix": "Condition",
         "body": "Condition$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Condition_Category": {
+    "TARGET_CONTAINER.Condition_Category": {
         "scope": "escn",
         "prefix": "Condition_Category",
         "body": "Condition_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Configuration": {
+    "TARGET_CONTAINER.Configuration": {
         "scope": "escn",
         "prefix": "Configuration",
         "body": "Configuration$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Consumable": {
+    "TARGET_CONTAINER.Consumable": {
         "scope": "escn",
         "prefix": "Consumable",
         "body": "Consumable$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ConsumableCategory": {
+    "TARGET_CONTAINER.ConsumableCategory": {
         "scope": "escn",
         "prefix": "ConsumableCategory",
         "body": "ConsumableCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ConsumableUnit": {
+    "TARGET_CONTAINER.ConsumableUnit": {
         "scope": "escn",
         "prefix": "ConsumableUnit",
         "body": "ConsumableUnit$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Context": {
+    "TARGET_CONTAINER.Context": {
         "scope": "escn",
         "prefix": "Context",
         "body": "Context$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CPAR_Task": {
+    "TARGET_CONTAINER.CPAR_Task": {
         "scope": "escn",
         "prefix": "CPAR_Task",
         "body": "CPAR_Task$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CreateDedicationCode": {
+    "TARGET_CONTAINER.CreateDedicationCode": {
         "scope": "escn",
         "prefix": "CreateDedicationCode",
         "body": "CreateDedicationCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_CreateInhibCode": {
+    "TARGET_CONTAINER.CreateInhibCode": {
         "scope": "escn",
         "prefix": "CreateInhibCode",
         "body": "CreateInhibCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Criteria": {
+    "TARGET_CONTAINER.Criteria": {
         "scope": "escn",
         "prefix": "Criteria",
         "body": "Criteria$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Criteria_Category": {
+    "TARGET_CONTAINER.Criteria_Category": {
         "scope": "escn",
         "prefix": "Criteria_Category",
         "body": "Criteria_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Customer": {
+    "TARGET_CONTAINER.Customer": {
         "scope": "escn",
         "prefix": "Customer",
         "body": "Customer$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DatabaseColumn": {
+    "TARGET_CONTAINER.DatabaseColumn": {
         "scope": "escn",
         "prefix": "DatabaseColumn",
         "body": "DatabaseColumn$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DatabaseTable": {
+    "TARGET_CONTAINER.DatabaseTable": {
         "scope": "escn",
         "prefix": "DatabaseTable",
         "body": "DatabaseTable$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DatabaseView": {
+    "TARGET_CONTAINER.DatabaseView": {
         "scope": "escn",
         "prefix": "DatabaseView",
         "body": "DatabaseView$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DataSpecification": {
+    "TARGET_CONTAINER.DataSpecification": {
         "scope": "escn",
         "prefix": "DataSpecification",
         "body": "DataSpecification$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DecisionHub": {
+    "TARGET_CONTAINER.DecisionHub": {
         "scope": "escn",
         "prefix": "DecisionHub",
         "body": "DecisionHub$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DefectCode": {
+    "TARGET_CONTAINER.DefectCode": {
         "scope": "escn",
         "prefix": "DefectCode",
         "body": "DefectCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DefectCode_Category": {
+    "TARGET_CONTAINER.DefectCode_Category": {
         "scope": "escn",
         "prefix": "DefectCode_Category",
         "body": "DefectCode_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Department": {
+    "TARGET_CONTAINER.Department": {
         "scope": "escn",
         "prefix": "Department",
         "body": "Department$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Device": {
+    "TARGET_CONTAINER.Device": {
         "scope": "escn",
         "prefix": "Device",
         "body": "Device$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Device_Category": {
+    "TARGET_CONTAINER.Device_Category": {
         "scope": "escn",
         "prefix": "Device_Category",
         "body": "Device_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Device_Category_Group": {
+    "TARGET_CONTAINER.Device_Category_Group": {
         "scope": "escn",
         "prefix": "Device_Category_Group",
         "body": "Device_Category_Group$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DisableDedicationCode": {
+    "TARGET_CONTAINER.DisableDedicationCode": {
         "scope": "escn",
         "prefix": "DisableDedicationCode",
         "body": "DisableDedicationCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DisableInhibCode": {
+    "TARGET_CONTAINER.DisableInhibCode": {
         "scope": "escn",
         "prefix": "DisableInhibCode",
         "body": "DisableInhibCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DispatchParameter": {
+    "TARGET_CONTAINER.DispatchParameter": {
         "scope": "escn",
         "prefix": "DispatchParameter",
         "body": "DispatchParameter$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DispatchRule": {
+    "TARGET_CONTAINER.DispatchRule": {
         "scope": "escn",
         "prefix": "DispatchRule",
         "body": "DispatchRule$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DispatchRuleCategory": {
+    "TARGET_CONTAINER.DispatchRuleCategory": {
         "scope": "escn",
         "prefix": "DispatchRuleCategory",
         "body": "DispatchRuleCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DispatchRuleGroup": {
+    "TARGET_CONTAINER.DispatchRuleGroup": {
         "scope": "escn",
         "prefix": "DispatchRuleGroup",
         "body": "DispatchRuleGroup$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DocBlobCategory": {
+    "TARGET_CONTAINER.DocBlobCategory": {
         "scope": "escn",
         "prefix": "DocBlobCategory",
         "body": "DocBlobCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_DocumentBlob": {
+    "TARGET_CONTAINER.DocumentBlob": {
         "scope": "escn",
         "prefix": "DocumentBlob",
         "body": "DocumentBlob$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_EmploymentStatus": {
+    "TARGET_CONTAINER.EmploymentStatus": {
         "scope": "escn",
         "prefix": "EmploymentStatus",
         "body": "EmploymentStatus$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_EnableDedicationCode": {
+    "TARGET_CONTAINER.EnableDedicationCode": {
         "scope": "escn",
         "prefix": "EnableDedicationCode",
         "body": "EnableDedicationCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_EnableInhibCode": {
+    "TARGET_CONTAINER.EnableInhibCode": {
         "scope": "escn",
         "prefix": "EnableInhibCode",
         "body": "EnableInhibCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_EncapsulatedEvent": {
+    "TARGET_CONTAINER.EncapsulatedEvent": {
         "scope": "escn",
         "prefix": "EncapsulatedEvent",
         "body": "EncapsulatedEvent$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_EncapsulatedEventCategory": {
+    "TARGET_CONTAINER.EncapsulatedEventCategory": {
         "scope": "escn",
         "prefix": "EncapsulatedEventCategory",
         "body": "EncapsulatedEventCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_EncapsulatedEventParameter": {
+    "TARGET_CONTAINER.EncapsulatedEventParameter": {
         "scope": "escn",
         "prefix": "EncapsulatedEventParameter",
         "body": "EncapsulatedEventParameter$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_EventRedirect": {
+    "TARGET_CONTAINER.EventRedirect": {
         "scope": "escn",
         "prefix": "EventRedirect",
         "body": "EventRedirect$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Form": {
+    "TARGET_CONTAINER.Form": {
         "scope": "escn",
         "prefix": "Form",
         "body": "Form$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Form_Category": {
+    "TARGET_CONTAINER.Form_Category": {
         "scope": "escn",
         "prefix": "Form_Category",
         "body": "Form_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Form_Template": {
+    "TARGET_CONTAINER.Form_Template": {
         "scope": "escn",
         "prefix": "Form_Template",
         "body": "Form_Template$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Form_Value": {
+    "TARGET_CONTAINER.Form_Value": {
         "scope": "escn",
         "prefix": "Form_Value",
         "body": "Form_Value$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_FutureComment": {
+    "TARGET_CONTAINER.FutureComment": {
         "scope": "escn",
         "prefix": "FutureComment",
         "body": "FutureComment$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_FutureHold": {
+    "TARGET_CONTAINER.FutureHold": {
         "scope": "escn",
         "prefix": "FutureHold",
         "body": "FutureHold$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_FutureSkipStep": {
+    "TARGET_CONTAINER.FutureSkipStep": {
         "scope": "escn",
         "prefix": "FutureSkipStep",
         "body": "FutureSkipStep$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_GeneralResourceState": {
+    "TARGET_CONTAINER.GeneralResourceState": {
         "scope": "escn",
         "prefix": "GeneralResourceState",
         "body": "GeneralResourceState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_GeneralResourceSubState": {
+    "TARGET_CONTAINER.GeneralResourceSubState": {
         "scope": "escn",
         "prefix": "GeneralResourceSubState",
         "body": "GeneralResourceSubState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Group": {
+    "TARGET_CONTAINER.Group": {
         "scope": "escn",
         "prefix": "Group",
         "body": "Group$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_HoldCode": {
+    "TARGET_CONTAINER.HoldCode": {
         "scope": "escn",
         "prefix": "HoldCode",
         "body": "HoldCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ImageMap": {
+    "TARGET_CONTAINER.ImageMap": {
         "scope": "escn",
         "prefix": "ImageMap",
         "body": "ImageMap$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ImageMapCategory": {
+    "TARGET_CONTAINER.ImageMapCategory": {
         "scope": "escn",
         "prefix": "ImageMapCategory",
         "body": "ImageMapCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Inhibition": {
+    "TARGET_CONTAINER.Inhibition": {
         "scope": "escn",
         "prefix": "Inhibition",
         "body": "Inhibition$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Job": {
+    "TARGET_CONTAINER.Job": {
         "scope": "escn",
         "prefix": "Job",
         "body": "Job$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_JobSchedule": {
+    "TARGET_CONTAINER.JobSchedule": {
         "scope": "escn",
         "prefix": "JobSchedule",
         "body": "JobSchedule$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Kpi": {
+    "TARGET_CONTAINER.Kpi": {
         "scope": "escn",
         "prefix": "Kpi",
         "body": "Kpi$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_KPI_Alert": {
+    "TARGET_CONTAINER.KPI_Alert": {
         "scope": "escn",
         "prefix": "KPI_Alert",
         "body": "KPI_Alert$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_KPI_Group": {
+    "TARGET_CONTAINER.KPI_Group": {
         "scope": "escn",
         "prefix": "KPI_Group",
         "body": "KPI_Group$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_LMSRule": {
+    "TARGET_CONTAINER.LMSRule": {
         "scope": "escn",
         "prefix": "LMSRule",
         "body": "LMSRule$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Loop": {
+    "TARGET_CONTAINER.Loop": {
         "scope": "escn",
         "prefix": "Loop",
         "body": "Loop$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Message": {
+    "TARGET_CONTAINER.Message": {
         "scope": "escn",
         "prefix": "Message",
         "body": "Message$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_MessageCategory": {
+    "TARGET_CONTAINER.MessageCategory": {
         "scope": "escn",
         "prefix": "MessageCategory",
         "body": "MessageCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_MfdUnit": {
+    "TARGET_CONTAINER.MfdUnit": {
         "scope": "escn",
         "prefix": "MfdUnit",
         "body": "MfdUnit$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_MfgStage": {
+    "TARGET_CONTAINER.MfgStage": {
         "scope": "escn",
         "prefix": "MfgStage",
         "body": "MfgStage$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_MfgStageCategory": {
+    "TARGET_CONTAINER.MfgStageCategory": {
         "scope": "escn",
         "prefix": "MfgStageCategory",
         "body": "MfgStageCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ObjectType": {
+    "TARGET_CONTAINER.ObjectType": {
         "scope": "escn",
         "prefix": "ObjectType",
         "body": "ObjectType$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Operation": {
+    "TARGET_CONTAINER.Operation": {
         "scope": "escn",
         "prefix": "Operation",
         "body": "Operation$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Operation_Category": {
+    "TARGET_CONTAINER.Operation_Category": {
         "scope": "escn",
         "prefix": "Operation_Category",
         "body": "Operation_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_OperationType": {
+    "TARGET_CONTAINER.OperationType": {
         "scope": "escn",
         "prefix": "OperationType",
         "body": "OperationType$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Printer": {
+    "TARGET_CONTAINER.Printer": {
         "scope": "escn",
         "prefix": "Printer",
         "body": "Printer$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Product": {
+    "TARGET_CONTAINER.Product": {
         "scope": "escn",
         "prefix": "Product",
         "body": "Product$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Product_Category": {
+    "TARGET_CONTAINER.Product_Category": {
         "scope": "escn",
         "prefix": "Product_Category",
         "body": "Product_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ProductType": {
+    "TARGET_CONTAINER.ProductType": {
         "scope": "escn",
         "prefix": "ProductType",
         "body": "ProductType$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Profile": {
+    "TARGET_CONTAINER.Profile": {
         "scope": "escn",
         "prefix": "Profile",
         "body": "Profile$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_QPAR_Status": {
+    "TARGET_CONTAINER.QPAR_Status": {
         "scope": "escn",
         "prefix": "QPAR_Status",
         "body": "QPAR_Status$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Query": {
+    "TARGET_CONTAINER.Query": {
         "scope": "escn",
         "prefix": "Query",
         "body": "Query$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_QueryCategory": {
+    "TARGET_CONTAINER.QueryCategory": {
         "scope": "escn",
         "prefix": "QueryCategory",
         "body": "QueryCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_RDA": {
+    "TARGET_CONTAINER.RDA": {
         "scope": "escn",
         "prefix": "RDA",
         "body": "RDA$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Recipe": {
+    "TARGET_CONTAINER.Recipe": {
         "scope": "escn",
         "prefix": "Recipe",
         "body": "Recipe$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_RecipeCategory": {
+    "TARGET_CONTAINER.RecipeCategory": {
         "scope": "escn",
         "prefix": "RecipeCategory",
         "body": "RecipeCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_RecipeParameter": {
+    "TARGET_CONTAINER.RecipeParameter": {
         "scope": "escn",
         "prefix": "RecipeParameter",
         "body": "RecipeParameter$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_RecipeTemplate": {
+    "TARGET_CONTAINER.RecipeTemplate": {
         "scope": "escn",
         "prefix": "RecipeTemplate",
         "body": "RecipeTemplate$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_RecipeTemplateCategory": {
+    "TARGET_CONTAINER.RecipeTemplateCategory": {
         "scope": "escn",
         "prefix": "RecipeTemplateCategory",
         "body": "RecipeTemplateCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ReleaseCode": {
+    "TARGET_CONTAINER.ReleaseCode": {
         "scope": "escn",
         "prefix": "ReleaseCode",
         "body": "ReleaseCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Report": {
+    "TARGET_CONTAINER.Report": {
         "scope": "escn",
         "prefix": "Report",
         "body": "Report$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ReportCategory": {
+    "TARGET_CONTAINER.ReportCategory": {
         "scope": "escn",
         "prefix": "ReportCategory",
         "body": "ReportCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Request": {
+    "TARGET_CONTAINER.Request": {
         "scope": "escn",
         "prefix": "Request",
         "body": "Request$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Reservation": {
+    "TARGET_CONTAINER.Reservation": {
         "scope": "escn",
         "prefix": "Reservation",
         "body": "Reservation$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ResolutionCode": {
+    "TARGET_CONTAINER.ResolutionCode": {
         "scope": "escn",
         "prefix": "ResolutionCode",
         "body": "ResolutionCode$0",
         "description": "Target Container"
     },
-    "TARGET_CONTAINER_ResolutionCode_Category": {
+    "TARGET_CONTAINER.ResolutionCode_Category": {
         "scope": "escn",
         "prefix": "ResolutionCode_Category",
         "body": "ResolutionCode_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Resource_Capability": {
+    "TARGET_CONTAINER.Resource_Capability": {
         "scope": "escn",
         "prefix": "Resource_Capability",
         "body": "Resource_Capability$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ResourcePriority": {
+    "TARGET_CONTAINER.ResourcePriority": {
         "scope": "escn",
         "prefix": "ResourcePriority",
         "body": "ResourcePriority$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ResourceState": {
+    "TARGET_CONTAINER.ResourceState": {
         "scope": "escn",
         "prefix": "ResourceState",
         "body": "ResourceState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ResourceSubState": {
+    "TARGET_CONTAINER.ResourceSubState": {
         "scope": "escn",
         "prefix": "ResourceSubState",
         "body": "ResourceSubState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Reticle": {
+    "TARGET_CONTAINER.Reticle": {
         "scope": "escn",
         "prefix": "Reticle",
         "body": "Reticle$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Reticle_Category": {
+    "TARGET_CONTAINER.Reticle_Category": {
         "scope": "escn",
         "prefix": "Reticle_Category",
         "body": "Reticle_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ReticlePod": {
+    "TARGET_CONTAINER.ReticlePod": {
         "scope": "escn",
         "prefix": "ReticlePod",
         "body": "ReticlePod$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ReticlePodCategory": {
+    "TARGET_CONTAINER.ReticlePodCategory": {
         "scope": "escn",
         "prefix": "ReticlePodCategory",
         "body": "ReticlePodCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ReworkCode": {
+    "TARGET_CONTAINER.ReworkCode": {
         "scope": "escn",
         "prefix": "ReworkCode",
         "body": "ReworkCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_RunValue": {
+    "TARGET_CONTAINER.RunValue": {
         "scope": "escn",
         "prefix": "RunValue",
         "body": "RunValue$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SamplingPlan": {
+    "TARGET_CONTAINER.SamplingPlan": {
         "scope": "escn",
         "prefix": "SamplingPlan",
         "body": "SamplingPlan$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Scenario": {
+    "TARGET_CONTAINER.Scenario": {
         "scope": "escn",
         "prefix": "Scenario",
         "body": "Scenario$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ScenarioCategory": {
+    "TARGET_CONTAINER.ScenarioCategory": {
         "scope": "escn",
         "prefix": "ScenarioCategory",
         "body": "ScenarioCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ScrapCode": {
+    "TARGET_CONTAINER.ScrapCode": {
         "scope": "escn",
         "prefix": "ScrapCode",
         "body": "ScrapCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Shift": {
+    "TARGET_CONTAINER.Shift": {
         "scope": "escn",
         "prefix": "Shift",
         "body": "Shift$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SignatureHub": {
+    "TARGET_CONTAINER.SignatureHub": {
         "scope": "escn",
         "prefix": "SignatureHub",
         "body": "SignatureHub$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SignatureState": {
+    "TARGET_CONTAINER.SignatureState": {
         "scope": "escn",
         "prefix": "SignatureState",
         "body": "SignatureState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Site": {
+    "TARGET_CONTAINER.Site": {
         "scope": "escn",
         "prefix": "Site",
         "body": "Site$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SparePart": {
+    "TARGET_CONTAINER.SparePart": {
         "scope": "escn",
         "prefix": "SparePart",
         "body": "SparePart$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SparePartCategory": {
+    "TARGET_CONTAINER.SparePartCategory": {
         "scope": "escn",
         "prefix": "SparePartCategory",
         "body": "SparePartCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SPC": {
+    "TARGET_CONTAINER.SPC": {
         "scope": "escn",
         "prefix": "SPC",
         "body": "SPC$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SPCAnnotation": {
+    "TARGET_CONTAINER.SPCAnnotation": {
         "scope": "escn",
         "prefix": "SPCAnnotation",
         "body": "SPCAnnotation$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SPCCategory": {
+    "TARGET_CONTAINER.SPCCategory": {
         "scope": "escn",
         "prefix": "SPCCategory",
         "body": "SPCCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SPCFilter": {
+    "TARGET_CONTAINER.SPCFilter": {
         "scope": "escn",
         "prefix": "SPCFilter",
         "body": "SPCFilter$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SplitCode": {
+    "TARGET_CONTAINER.SplitCode": {
         "scope": "escn",
         "prefix": "SplitCode",
         "body": "SplitCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Step": {
+    "TARGET_CONTAINER.Step": {
         "scope": "escn",
         "prefix": "Step",
         "body": "Step$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Step_Category": {
+    "TARGET_CONTAINER.Step_Category": {
         "scope": "escn",
         "prefix": "Step_Category",
         "body": "Step_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SubArea": {
+    "TARGET_CONTAINER.SubArea": {
         "scope": "escn",
         "prefix": "SubArea",
         "body": "SubArea$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Subject": {
+    "TARGET_CONTAINER.Subject": {
         "scope": "escn",
         "prefix": "Subject",
         "body": "Subject$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SubRecipe": {
+    "TARGET_CONTAINER.SubRecipe": {
         "scope": "escn",
         "prefix": "SubRecipe",
         "body": "SubRecipe$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SubRecipeCategory": {
+    "TARGET_CONTAINER.SubRecipeCategory": {
         "scope": "escn",
         "prefix": "SubRecipeCategory",
         "body": "SubRecipeCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Supplier": {
+    "TARGET_CONTAINER.Supplier": {
         "scope": "escn",
         "prefix": "Supplier",
         "body": "Supplier$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SupplierCategory": {
+    "TARGET_CONTAINER.SupplierCategory": {
         "scope": "escn",
         "prefix": "SupplierCategory",
         "body": "SupplierCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SWR": {
+    "TARGET_CONTAINER.SWR": {
         "scope": "escn",
         "prefix": "SWR",
         "body": "SWR$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SWRSetLotStructDef": {
+    "TARGET_CONTAINER.SWRSetLotStructDef": {
         "scope": "escn",
         "prefix": "SWRSetLotStructDef",
         "body": "SWRSetLotStructDef$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_SWRStepStructure": {
+    "TARGET_CONTAINER.SWRStepStructure": {
         "scope": "escn",
         "prefix": "SWRStepStructure",
         "body": "SWRStepStructure$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Task": {
+    "TARGET_CONTAINER.Task": {
         "scope": "escn",
         "prefix": "Task",
         "body": "Task$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_TaskOperation": {
+    "TARGET_CONTAINER.TaskOperation": {
         "scope": "escn",
         "prefix": "TaskOperation",
         "body": "TaskOperation$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ToolAlarm": {
+    "TARGET_CONTAINER.ToolAlarm": {
         "scope": "escn",
         "prefix": "ToolAlarm",
         "body": "ToolAlarm$0",
         "description": "Target Container"
     },
-    "TARGET_CONTAINER_ToolAlarmCategory": {
+    "TARGET_CONTAINER.ToolAlarmCategory": {
         "scope": "escn",
         "prefix": "ToolAlarmCategory",
         "body": "ToolAlarmCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ToolRelation": {
+    "TARGET_CONTAINER.ToolRelation": {
         "scope": "escn",
         "prefix": "ToolRelation",
         "body": "ToolRelation$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ToolRunDataset": {
+    "TARGET_CONTAINER.ToolRunDataset": {
         "scope": "escn",
         "prefix": "ToolRunDataset",
         "body": "ToolRunDataset$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ToolTransition": {
+    "TARGET_CONTAINER.ToolTransition": {
         "scope": "escn",
         "prefix": "ToolTransition",
         "body": "ToolTransition$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Training_Category": {
+    "TARGET_CONTAINER.Training_Category": {
         "scope": "escn",
         "prefix": "Training_Category",
         "body": "Training_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_TrainingDocument": {
+    "TARGET_CONTAINER.TrainingDocument": {
         "scope": "escn",
         "prefix": "TrainingDocument",
         "body": "TrainingDocument$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_TrainingDocumentState": {
+    "TARGET_CONTAINER.TrainingDocumentState": {
         "scope": "escn",
         "prefix": "TrainingDocumentState",
         "body": "TrainingDocumentState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_TrainingReviewSchedule": {
+    "TARGET_CONTAINER.TrainingReviewSchedule": {
         "scope": "escn",
         "prefix": "TrainingReviewSchedule",
         "body": "TrainingReviewSchedule$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_TrainingSchedule": {
+    "TARGET_CONTAINER.TrainingSchedule": {
         "scope": "escn",
         "prefix": "TrainingSchedule",
         "body": "TrainingSchedule$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_TrainingState": {
+    "TARGET_CONTAINER.TrainingState": {
         "scope": "escn",
         "prefix": "TrainingState",
         "body": "TrainingState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Transaction": {
+    "TARGET_CONTAINER.Transaction": {
         "scope": "escn",
         "prefix": "Transaction",
         "body": "Transaction$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_TransService": {
+    "TARGET_CONTAINER.TransService": {
         "scope": "escn",
         "prefix": "TransService",
         "body": "TransService$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UIEvent": {
+    "TARGET_CONTAINER.UIEvent": {
         "scope": "escn",
         "prefix": "UIEvent",
         "body": "UIEvent$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UIEventCategory": {
+    "TARGET_CONTAINER.UIEventCategory": {
         "scope": "escn",
         "prefix": "UIEventCategory",
         "body": "UIEventCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UIFilter": {
+    "TARGET_CONTAINER.UIFilter": {
         "scope": "escn",
         "prefix": "UIFilter",
         "body": "UIFilter$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UISorter": {
+    "TARGET_CONTAINER.UISorter": {
         "scope": "escn",
         "prefix": "UISorter",
         "body": "UISorter$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UITableDescriptor": {
+    "TARGET_CONTAINER.UITableDescriptor": {
         "scope": "escn",
         "prefix": "UITableDescriptor",
         "body": "UITableDescriptor$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UnscrapCode": {
+    "TARGET_CONTAINER.UnscrapCode": {
         "scope": "escn",
         "prefix": "UnscrapCode",
         "body": "UnscrapCode$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_User": {
+    "TARGET_CONTAINER.User": {
         "scope": "escn",
         "prefix": "User",
         "body": "User$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_User_Category": {
+    "TARGET_CONTAINER.User_Category": {
         "scope": "escn",
         "prefix": "User_Category",
         "body": "User_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UserEmploymentStatus": {
+    "TARGET_CONTAINER.UserEmploymentStatus": {
         "scope": "escn",
         "prefix": "UserEmploymentStatus",
         "body": "UserEmploymentStatus$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UserSection": {
+    "TARGET_CONTAINER.UserSection": {
         "scope": "escn",
         "prefix": "UserSection",
         "body": "UserSection$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_UserShift": {
+    "TARGET_CONTAINER.UserShift": {
         "scope": "escn",
         "prefix": "UserShift",
         "body": "UserShift$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ValueSpec": {
+    "TARGET_CONTAINER.ValueSpec": {
         "scope": "escn",
         "prefix": "ValueSpec",
         "body": "ValueSpec$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Variable": {
+    "TARGET_CONTAINER.Variable": {
         "scope": "escn",
         "prefix": "Variable",
         "body": "Variable$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_WIPCategory": {
+    "TARGET_CONTAINER.WIPCategory": {
         "scope": "escn",
         "prefix": "WIPCategory",
         "body": "WIPCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_WIPState": {
+    "TARGET_CONTAINER.WIPState": {
         "scope": "escn",
         "prefix": "WIPState",
         "body": "WIPState$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_WIPType": {
+    "TARGET_CONTAINER.WIPType": {
         "scope": "escn",
         "prefix": "WIPType",
         "body": "WIPType$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Workflow": {
+    "TARGET_CONTAINER.Workflow": {
         "scope": "escn",
         "prefix": "Workflow",
         "body": "Workflow$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_Workflow_Category": {
+    "TARGET_CONTAINER.Workflow_Category": {
         "scope": "escn",
         "prefix": "Workflow_Category",
         "body": "Workflow_Category$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_WorkOrder": {
+    "TARGET_CONTAINER.WorkOrder": {
         "scope": "escn",
         "prefix": "WorkOrder",
         "body": "WorkOrder$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_WorkOrderCategory": {
+    "TARGET_CONTAINER.WorkOrderCategory": {
         "scope": "escn",
         "prefix": "WorkOrderCategory",
         "body": "WorkOrderCategory$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_WorkOrderElement": {
+    "TARGET_CONTAINER.WorkOrderElement": {
         "scope": "escn",
         "prefix": "WorkOrderElement",
         "body": "WorkOrderElement$0",
         "description": "Target Container\n\n"
     },
-    "TARGET_CONTAINER_ProbeCard": {
+    "TARGET_CONTAINER.ProbeCard": {
         "scope": "escn",
         "prefix": "ProbeCard",
         "body": "ProbeCard$0",
         "description": "Target Container (often added through configuration< CUSTOM)\n\n"
     },
-    "TARGET_CONTAINER_QuartzBoat": {
+    "TARGET_CONTAINER.QuartzBoat": {
         "scope": "escn",
         "prefix": "QuartzBoat",
         "body": "QuartzBoat$0",
