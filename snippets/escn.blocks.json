@@ -1,0 +1,98 @@
+{
+    "BLOCK.COMMENT": {
+        "prefix": "Comment",
+        "body": "# ${1:Type}: ${2:Notes}$0",
+        "description": "Creates a line comment for a block.\nExample: # VAL: Init\n\n"
+    },
+
+    "BLOCK.LOOP": {
+        "scope": "escn",
+        "prefix": "LOOP",
+        "body": "LOOP: $0",
+        "description": "LOOP Block/Value Spec - Needed to instruct the system to loop back until all elements in a SCENARIO_LOOP_CONTROL have been visited.\n\n"
+    },
+    "BLOCK.VAL": {
+        "scope": "escn",
+        "prefix": "VAL",
+        "body": "VAL: $0",
+        "description": "VAL Block/Value Spec - Creates parameters inside the execution context.\n\n"
+    },
+    "BLOCK.SQL": {
+        "scope": "escn",
+        "prefix": "SQL",
+        "body": "SQL: $0",
+        "description": "SQL Block/Value Spec - Executes a SQL statement with parameters as given by the arguments.\n\n"
+    },
+    "BLOCK.VAR": {
+        "scope": "escn",
+        "prefix": "VAR",
+        "body": "VAR: $0",
+        "description": "VAR Block/Value Spec - Updates variables on an object as given by the arguments.\n\n"
+    },
+    "BLOCK.ATTRIB": {
+        "scope": "escn",
+        "prefix": "ATTRIB",
+        "body": "ATTRIB: $0",
+        "description": "ATTRIB Block/Value Spec - Updates attributes on an object as given by the arguments.\n\n"
+    },
+    "BLOCK.DISALLOW": {
+        "scope": "escn",
+        "prefix": "DISALLOW",
+        "body": "DISALLOW: $0",
+        "description": "DISALLOW Block/Value Spec - Throws an exception to stop the execution.\n\n"
+    },
+    "BLOCK.EMAIL": {
+        "scope": "escn",
+        "prefix": "EMAIL",
+        "body": "EMAIL: $0",
+        "description": "EMAIL Block/Value Spec - Sends an email properties as given by the arguments.\n\n"
+    },
+    "BLOCK.ENC": {
+        "scope": "escn",
+        "prefix": "ENC",
+        "body": "ENC: $0",
+        "description": "ENC Block/Value Spec - Executes an encapsulated event with properties as given by the arguments.\n\n"
+    },
+    "BLOCK.EVT": {
+        "scope": "escn",
+        "prefix": "EVT",
+        "body": "EVT: $0",
+        "description": "EVT Block/Value Spec - Creates an Eyelit application event with properties as given by the arguments.\n\n"
+    },
+    "BLOCK.EXE": {
+        "scope": "escn",
+        "prefix": "EXE",
+        "body": "EXE: $0",
+        "description": "EXE Block/Value Spec - Executes the specified Eyelit view class with properties as given by the arguments.\n\n"
+    },
+    "BLOCK.MDA": {
+        "scope": "escn",
+        "prefix": "MDA",
+        "body": "MDA: $0",
+        "description": "MDA Block/Value Spec - Executes MfdUnit disposition action with properties as given by the arguments.\n\n"
+    },
+    "BLOCK.RSI": {
+        "scope": "escn",
+        "prefix": "RSI",
+        "body": "RSI: $0",
+        "description": "RSA Block/Value Spec - Executes a scenario on a remote system (Remote Scenario Invocation).\n\n"
+    },
+    "BLOCK.SCRPT": {
+        "scope": "escn",
+        "prefix": "SCRPT",
+        "body": "SCRPT: $0",
+        "description": "SCRPT Execution Block/Value Spec - Executes selected script language with properties given by the arguments.\n\n"
+    },
+    "BLOCK.XML": {
+        "scope": "escn",
+        "prefix": "XML",
+        "body": "XML: $0",
+        "description": "XML Execution Block/Value Spec - Creates an XML Event with properties as specified by the arguments.\n\n"
+    },
+    "BLOCK.SCN": {
+        "scope": "escn",
+        "prefix": "SCN",
+        "body": "SCN: $0",
+        "description": "Scenario Execution Block/Value Spec - Triggers the execution of an embedded Scenario.\n\n"
+    }
+}

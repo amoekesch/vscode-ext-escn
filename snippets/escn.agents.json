@@ -1,0 +1,146 @@
+{
+    "AGENT.POSTACTIONCONDITIONALAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostActionConditionalAgent",
+        "body": "com.eyelit.ext.PostActionConditionalAgent$0",
+        "description": "POSTACTIONCONDITIONALAGENT Agent - Performs asynchronous post-checks on all actions\n\n"
+    },
+    "AGENT.POSTACTIONSYNCHCONDITIONALAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostActionSynchConditionalAgent",
+        "body": "com.eyelit.ext.PostActionSynchConditionalAgent$0",
+        "description": "POSTACTIONSYNCHCONDITIONALAGENT Agent - Performs synchronous post-checks on all actions\n\n"
+    },
+    "AGENT.POSTAPPLICATIONEVENTAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostApplicationEventAgent",
+        "body": "com.eyelit.ext.PostApplicationEventAgent$0",
+        "description": "POSTAPPLICATIONEVENTAGENT Agent - Performs post-checks on all application events\n\n"
+    },
+    "AGENT.POSTAPPLICATIONEVENTSYNCAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostApplicationEventSyncAgent",
+        "body": "com.eyelit.ext.PostApplicationEventSyncAgent$0",
+        "description": "POSTAPPLICATIONEVENTSYNCAGENT Agent - Performs synchronous post-checks on all application events\n\n"
+    },
+    "AGENT.POSTCOMPLETEHTMLFORMAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostCompleteHtmlFormAgent",
+        "body": "com.eyelit.ext.PostCompleteHtmlFormAgent$0",
+        "description": "POSTCOMPLETEHTMLFORMAGENT Agent - Performs post checks on Html Forms completion\n\n"
+    },
+    "AGENT.POSTDATACOLLECTIONENTERINGSCENARIOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostDataCollectionEnteringScenarioAgent",
+        "body": "com.eyelit.ext.PostDataCollectionEnteringScenarioAgent$0",
+        "description": "POSTDATACOLLECTIONENTERINGSCENARIOAGENT Agent - Performs synchronous post-scenarios on all data collection\n\n"
+    },
+    "AGENT.POSTREQUESTSCENARIOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostRequestScenarioAgent",
+        "body": "com.eyelit.ext.PostRequestScenarioAgent$0",
+        "description": "POSTREQUESTSCENARIOAGENT Agent - Performs checks for and executes post-execution asynchronous Scenarios\n\n"
+    },
+    "AGENT.POSTREQUESTSYNCHSCENARIOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostRetrieveActionOwnerResponsibilityAgent",
+        "body": "com.eyelit.ext.PostRetrieveActionOwnerResponsibilityAgent$0",
+        "description": "POSTREQUESTSYNCHSCENARIOAGENT Agent - Performs checks for and executes post-execution synchronous Scenarios\n\n"
+    },
+    "AGENT.POSTRETRIEVEACTIONOWNERRESPONSIBILITYAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.",
+        "body": "com.eyelit.ext..$0",
+        "description": "POSTRETRIEVEACTIONOWNERRESPONSIBILITYAGENT Agent - Performs post-checks on action owner and responsibility\n\n"
+    },
+    "AGENT.POSTTRANSACTIONALCONDITIONAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostTransactionalConditionAgent",
+        "body": "com.eyelit.ext.PostTransactionalConditionAgent$0",
+        "description": "POSTTRANSACTIONALCONDITIONAGENT Agent - Performs asynchronous post-checks on all actions\n\n"
+    },
+    "AGENT.POSTTRANSACTIONALSCENARIOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostTransactionalScenarioAgent",
+        "body": "com.eyelit.ext.PostTransactionalScenarioAgent$0",
+        "description": "POSTTRANSACTIONALSCENARIOAGENT Agent - Performs checks for and executes post-transactional Scenarios\n\n"
+    },
+    "AGENT.POSTVECTORVIEWSYNCSCENARIOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostVectorViewSyncScenarioAgent",
+        "body": "com.eyelit.ext.PostVectorViewSyncScenarioAgent$0",
+        "description": "POSTVECTORVIEWSYNCSCENARIOAGENT Agent - Performs checks for and executes post-execution synchronous Scenarios after a VectorView\n\n"
+    },
+    "AGENT.POSTXMLEVENTAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostXMLEventAgent",
+        "body": "com.eyelit.ext.PostXMLEventAgent$0",
+        "description": "POSTXMLEVENTAGENT Agent - Performs post-checks on all XML events\n\n"
+    },
+    "AGENT.POSTXMLEVENTSYNCAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PostXMLEventSyncAgent",
+        "body": "com.eyelit.ext.PostXMLEventSyncAgent$0",
+        "description": "POSTXMLEVENTSYNCAGENT Agent - Performs synchronous post-checks on all XML events\n\n"
+    },
+    "AGENT.PREACTIONCONDITIONALAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreActionConditionalAgent",
+        "body": "com.eyelit.ext.PreActionConditionalAgent$0",
+        "description": "PREACTIONCONDITIONALAGENT Agent - Performs pre-checks on all actions\n\n"
+    },
+    "AGENT.PREACTIONCONDITIONALVETOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreActionConditionalVetoAgent",
+        "body": "com.eyelit.ext.PreActionConditionalVetoAgent$0",
+        "description": "PREACTIONCONDITIONALVETOAGENT Agent - Stops action unless at least one condition is true\n\n"
+    },
+    "AGENT.PREACTIONVETOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreActionVetoAgent",
+        "body": "com.eyelit.ext.PreActionVetoAgent$0",
+        "description": "PREACTIONVETOAGENT Agent - Performs vetoable checks on actions\n\n"
+    },
+    "AGENT.PREAPPLICATIONEVENTAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreApplicationEventAgent",
+        "body": "com.eyelit.ext.PreApplicationEventAgent$0",
+        "description": "PREAPPLICATIONEVENTAGENT Agent - Performs pre-checks on all application events\n\n"
+    },
+    "AGENT.PRECOMPLETENCRFORMAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreCompleteNCRFormAgent",
+        "body": "com.eyelit.ext.PreCompleteNCRFormAgent$0",
+        "description": "PRECOMPLETENCRFORMAGENT Agent - Performs pre-checks on NCR form completion\n\n"
+    },
+    "AGENT.PREFREEZECREATEARAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreFreezeCreateARAgent",
+        "body": "com.eyelit.ext.PreFreezeCreateARAgent$0",
+        "description": "PREFREEZECREATEARAGENT Agent - Performs pre-checks on freezing action requests\n\n"
+    },
+    "AGENT.PREMATRETURNCONDITIONALAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreMatReturnConditionalAgent",
+        "body": "com.eyelit.ext.PreMatReturnConditionalAgent$0",
+        "description": "PREMATRETURNCONDITIONALAGENT Agent - Performs pre-checks before a material return\n\n"
+    },
+    "AGENT.PREREQUESTSCENARIOAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreRequestScenarioAgent",
+        "body": "com.eyelit.ext.PreRequestScenarioAgent$0",
+        "description": "PREREQUESTSCENARIOAGENT Agent - Performs checks for and executes pre-execution Scenarios\n\n"
+    },
+    "AGENT.PRERESOURCESTATETRANSITIONAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreResourceStateTransitionAgent",
+        "body": "com.eyelit.ext.PreResourceStateTransitionAgent$0",
+        "description": "PRERESOURCESTATETRANSITIONAGENT Agent - Performs checks on resource state changes as per defined transition criteria\n\n"
+    },
+    "AGENT.PREXMLEVENTAGENT": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ext.PreXMLEventAgent",
+        "body": "com.eyelit.ext.PreXMLEventAgent$0",
+        "description": "PREXMLEVENTAGENT Agent - Performs pre-checks on all XML events\n\n"
+    }
+}

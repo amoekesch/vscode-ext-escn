@@ -1,10 +1,8 @@
 # TODO List
 
-## Project
-* Invite Mario and Emmanuel
+## Common
+* Create Marketplace Description
 * Add Eyelit Icon for Marketplace
-* Create packaging script
-* Publish Extension
 
 ## Highlighting
 * do it all
@@ -12,8 +10,6 @@
 ## Snippets
 * Add DOM Handling
 * Add common views (multi-line; common parameters, common RES access)
-  * com.eyelit.ads.importer.view.ADSChangeToolStatusView
-  * com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView
   * com.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView
   * com.eyelit.ads.importer.view.ADSPerformModifyAttributesView
   * com.eyelit.ads.importer.view.ADSPerformModifyTaskAttributesView

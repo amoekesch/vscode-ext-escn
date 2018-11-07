@@ -1,0 +1,217 @@
+{
+    "CONTEXT": {
+        "scope": "escn",
+        "prefix": "CONTEXT",
+        "body": "CONTEXT$0",
+        "description": "The CONTEXT Container\n\n"
+    },
+    "REQUEST": {
+        "scope": "escn",
+        "prefix": "REQUEST",
+        "body": "REQUEST$0",
+        "description": "The Triggering View\n\n"
+    },
+    "RESULT": {
+        "scope": "escn",
+        "prefix": "RESULT",
+        "body": "RESULT$0",
+        "description": "The Result as View\n\n"
+    },
+
+    "CONTEXT_CONTAINER_RES": {
+        "scope": "escn",
+        "prefix": "RES",
+        "body": "RES$0",
+        "description": "The RES Context Container\n\n"
+    },
+    "CONTEXT_CONTAINER_RES.RESULT": {
+        "scope": "escn",
+        "prefix": "RES.result",
+        "body": "RES.result$0",
+        "description": "The view result (usually in combination with an SQL Block; contains a Vector of all rows returned by the query)\n\n"
+    },
+    "CONTEXT_CONTAINER_RES.VECTOR": {
+        "scope": "escn",
+        "prefix": "RES.vector",
+        "body": "RES.vector$0",
+        "description": "The list of objects (usually in combination with views returning Object References; any View extending com.eyelit.view.vectorView)\n\n"
+    },
+    "CONTEXT_CONTAINER_RES.ITEM": {
+        "scope": "escn",
+        "prefix": "RES.item",
+        "body": "RES.item$0",
+        "description": "The result object item depending on the target container (usually in combination with com.eyelit.view.ObjectDetailsView)\n\n"
+    },
+    "CONTEXT_CONTAINER_RES.ID": {
+        "scope": "escn",
+        "prefix": "RES.id",
+        "body": "RES.id$0",
+        "description": "The id of the object (usually in combination with com.eyelit.view.ObjectDetailsView)\n\n"
+    },
+    "CONTEXT_CONTAINER_RES.ALIAS": {
+        "scope": "escn",
+        "prefix": "RES.alias",
+        "body": "RES.alias$0",
+        "description": "The alias of the object (usually in combination with com.eyelit.view.ObjectDetailsView)\n\n"
+    },
+    "CONTEXT_CONTAINER_RES.VERSION": {
+        "scope": "escn",
+        "prefix": "RES.version",
+        "body": "RES.version$0",
+        "description": "The version of the object (usually in combination with com.eyelit.view.ObjectDetailsView)\n\n"
+    },
+
+    "CONTEXT_CONTAINER_BOM": {
+        "scope": "escn",
+        "prefix": "BOM",
+        "body": "BOM$0",
+        "description": "The BOM Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_CON": {
+        "scope": "escn",
+        "prefix": "CON",
+        "body": "CON$0",
+        "description": "The CON Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_DC": {
+        "scope": "escn",
+        "prefix": "DC",
+        "body": "DC$0",
+        "description": "The DC Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_DEV": {
+        "scope": "escn",
+        "prefix": "DEV",
+        "body": "DEV$0",
+        "description": "The DEV Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_EVT": {
+        "scope": "escn",
+        "prefix": "EVT",
+        "body": "EVT$0",
+        "description": "The EVT Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_HTMLFORM": {
+        "scope": "escn",
+        "prefix": "HTMLFORM",
+        "body": "HTMLFORM$0",
+        "description": "The HTMLFORM Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_JSON": {
+        "scope": "escn",
+        "prefix": "JSON",
+        "body": "JSON$0",
+        "description": "The JSON Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_JSON/S": {
+        "scope": "escn",
+        "prefix": "JSON/S",
+        "body": "JSON/S$0",
+        "description": "The JSON/S Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_KPI": {
+        "scope": "escn",
+        "prefix": "KPI",
+        "body": "KPI$0",
+        "description": "The KPI Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_LOT": {
+        "scope": "escn",
+        "prefix": "LOT",
+        "body": "LOT$0",
+        "description": "The LOT Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_LOT/S": {
+        "scope": "escn",
+        "prefix": "LOT/S",
+        "body": "LOT/S$0",
+        "description": "The LOT/S Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_LSH": {
+        "scope": "escn",
+        "prefix": "LSH",
+        "body": "LSH$0",
+        "description": "The LSH Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_NCR": {
+        "scope": "escn",
+        "prefix": "NCR",
+        "body": "NCR$0",
+        "description": "The NCR Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_OPR": {
+        "scope": "escn",
+        "prefix": "OPR",
+        "body": "OPR$0",
+        "description": "The OPR Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_QPAR": {
+        "scope": "escn",
+        "prefix": "QPAR",
+        "body": "QPAR$0",
+        "description": "The QPAR Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_REQ": {
+        "scope": "escn",
+        "prefix": "REQ",
+        "body": "REQ$0",
+        "description": "The REQ Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_SPC": {
+        "scope": "escn",
+        "prefix": "SPC",
+        "body": "SPC$0",
+        "description": "The SPC Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_SPCCHART": {
+        "scope": "escn",
+        "prefix": "SPCCHART",
+        "body": "SPCCHART$0",
+        "description": "The SPCCHART Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_TASK_DC": {
+        "scope": "escn",
+        "prefix": "TASK_DC",
+        "body": "TASK_DC$0",
+        "description": "The TASK_DC Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_TASK_SPC": {
+        "scope": "escn",
+        "prefix": "TASK_SPC",
+        "body": "TASK_SPC$0",
+        "description": "The TASK_SPC Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_VAR": {
+        "scope": "escn",
+        "prefix": "VAR",
+        "body": "VAR$0",
+        "description": "The VAR Context Container\n\n"
+    },
+
+    "CONTEXT_CONTAINER_XML": {
+        "scope": "escn",
+        "prefix": "XML",
+        "body": "XML$0",
+        "description": "The XML Context Container\n\n"
+    }
+}

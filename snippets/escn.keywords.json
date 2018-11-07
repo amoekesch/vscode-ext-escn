@@ -1,0 +1,100 @@
+{
+    "SCENARIO_LOOP_CONTROL": {
+        "scope": "escn",
+        "prefix": "SCENARIO_LOOP_CONTROL",
+        "body": "SCENARIO_LOOP_CONTROL$0",
+        "description": "Scenario Loop Control (List)\n\n"
+    },
+    "SCENARIO_LOOP_ELEMENT": {
+        "scope": "escn",
+        "prefix": "SCENARIO_LOOP_ELEMENT",
+        "body": "SCENARIO_LOOP_ELEMENT$0",
+        "description": "Scenario Loop Element (List Item)\n\n"
+    },
+    "SCENARIO_LOOP_COUNTER": {
+        "scope": "escn",
+        "prefix": "SCENARIO_LOOP_COUNTER",
+        "body": "SCENARIO_LOOP_COUNTER$0",
+        "description": "Keyword used to access the element number in the scenario loop\n\n"
+    },
+    "SCENARIO_LOOP_MAX": {
+        "scope": "escn",
+        "prefix": "SCENARIO_LOOP_MAX",
+        "body": "SCENARIO_LOOP_MAX$0",
+        "description": "Keyword used to access the limit of the scenario loop.\n\n"
+    },
+
+    "/P": {
+        "scope": "escn",
+        "prefix": "/P",
+        "body": "/P$0",
+        "description": "/P\n\n"
+    },
+    "/TP": {
+        "scope": "escn",
+        "prefix": "/TP",
+        "body": "/TP$0",
+        "description": "/TP\n\n"
+    },
+    "/ELE": {
+        "scope": "escn",
+        "prefix": "/ELE",
+        "body": "/ELE$0",
+        "description": "/ELE\n\n"
+    },
+
+    "NULL": {
+        "scope": "escn",
+        "prefix": "NULL",
+        "body": "null$0",
+        "description": "NULL value\n\n"
+    },
+    "EMPTY_STRING": {
+        "scope": "escn",
+        "prefix": "EMPTY_STRING",
+        "body": "EMPTY_STRING$0",
+        "description": "Used to initialize parameters with an empty String value \"\"\n\n"
+    },
+    "EMPTY_VECTOR": {
+        "scope": "escn",
+        "prefix": "EMPTY_VECTOR",
+        "body": "EMPTY_VECTOR$0",
+        "description": "Commonly used in scensrios for empty lists. Careful, this is not an Eyelit keyword. The vector must be initialized first!\n\n"
+    },
+    "NEW_EMPTY_VECTOR": {
+        "scope": "escn",
+        "prefix": "EMPTY_VECTOR (Initialize)",
+        "body": "EMPTY_VECTOR/P=NEW(java.util.Vector)$0",
+        "description": "Create and initialize a new empty vector paramater named EMPTY_VECTOR/P\n\n"
+    },
+    "COUNTER": {
+        "scope": "escn",
+        "prefix": "COUNTER",
+        "body": "COUNTER_CURRENT/P=TO_INT(0),COUNTER_MAX/P=SIZE(REQ.$0/P)",
+        "description": "Create a counter min/max pair based on a list item. COUNTER_CURRENT/P=TO_INT(0(,COUNTER_MAX/P=SIZE(REQ.SOME_LIST/P)\n\n"
+    },
+    "NEWLINE": {
+        "scope": "escn",
+        "prefix": "NEWLINE",
+        "body": "NEWLINE$0",
+        "description": "A new line \"character\"\n\n"
+    },
+    "COMMA": {
+        "scope": "escn",
+        "prefix": "COMMA",
+        "body": "COMMA$0",
+        "description": "A comma \",\"\n\n"
+    },
+    "SPACE": {
+        "scope": "escn",
+        "prefix": "SPACE",
+        "body": "SPACE$0",
+        "description": "A space \" \"\n\n"
+    },
+    "$TID": {
+        "scope": "escn",
+        "prefix": "$TID",
+        "body": "\\$TID$0",
+        "description": "Retrieves a new TID (transaction id) from the system.\n\n"
+    }
+}

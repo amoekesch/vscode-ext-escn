@@ -1,0 +1,20 @@
+{
+    "EXE.ADSChangeToolStatusView": {
+        "scope": "escn",
+        "prefix": "ADSChangeToolStatusView",
+        "body": [
+            "com.eyelit.ads.importer.view.ADSChangeToolStatusView",
+            "id=${1:ToolID},state=${2:state},subState=${3:subState},description=${4:statusMessage}$0"
+        ],
+        "description": "Changes the status if a Device (only supports Device not genereal Resources).\nThe property subState is optional.\n\n"
+    },
+    "EXE.ADSCreateMfdUnitFutureHoldView": {
+        "scope": "escn",
+        "prefix": "ADSCreateMfdUnitFutureHoldView",
+        "body": [
+            "com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView",
+            "id=${1:LotID},stage=${2:StageID},stepId=${3:StepID},onEntry=${4:(true,false)},holdCode=${5:HoldCode},description=${6:Comment}$0"
+        ],
+        "description": "Adds a future hold the the given lot at when the lot enters (onEntry=true) or tries to exit (onEntry=false) the given stage and step combination.\n\n"
+    }
+}

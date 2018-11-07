@@ -1,0 +1,20 @@
+{
+    "PACKAGE_VIEW": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.",
+        "body": "com.eyelit.view.$0",
+        "description": "Views Package\n\n"
+    },
+    "PACKAGE_ITEM": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.item.",
+        "body": "com.eyelit.view.item.$0",
+        "description": "Item Classes Package\n\n"
+    },
+    "PACKAGE_ADS": {
+        "scope": "escn",
+        "prefix": "com.eyelit.ads.importer.view.",
+        "body": "com.eyelit.ads.importer.view.$0",
+        "description": "ADS/Automation Views Package\n\n"
+    }
+}

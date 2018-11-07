@@ -22,9 +22,51 @@
             "scopeName": "source.eyelit.scenario.escn",
             "path": "./syntaxes/escn.tmLanguage.json"
         }],
-        "snippets": [{
-            "language": "escn",
-            "path": "./snippets/escn.snippets.json"
-        }]
+        "snippets": [
+            {
+                "language": "escn",
+                "path": "./snippets/escn.snippets.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.views.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.items.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.containers.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.agents.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.packages.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.functions.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.contexts.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.blocks.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.conditions.json"
+            },
+            {
+                "language": "escn",
+                "path": "./snippets/escn.keywords.json"
+            }
+        ]
     }
 }

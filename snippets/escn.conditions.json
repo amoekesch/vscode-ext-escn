@@ -1,0 +1,102 @@
+{
+    "CONDITION": {
+        "scope": "escn",
+        "prefix": "Condition",
+        "body": [
+            "# Condition: ${1:ConditionID} - if (${2:Context},${3:Parameter}) ${4:Comparison} ${5:Value} goto: ${6:Description}",
+            "$0"
+        ],
+        "description": "Condition Instruction - A conditional instruction.\n\n"
+    },
+
+    "ALWAYSTRUE": {
+        "scope": "escn",
+        "prefix": "ALWAYSTRUE",
+        "body": "ALWAYSTRUE$0",
+        "description": "Independent from any comparison. This will always resolve to true.\n\n"
+    },
+    "CONTAINS": {
+        "scope": "escn",
+        "prefix": "CONTAINS",
+        "body": "CONTAINS$0",
+        "description": "Checks if a property contains the same value as the one specified in the argument.\n\n"
+    },
+    "EQUAL": {
+        "scope": "escn",
+        "prefix": "EQUAL",
+        "body": "EQUAL$0",
+        "description": "Checks if the property value is equal to the value specified in the argument.For example: (LOT,STATE) EQUAL FINISHED\n\n"
+    },
+    "GREATERTHAN": {
+        "scope": "escn",
+        "prefix": "GREATERTHAN",
+        "body": "GREATERTHAN$0",
+        "description": "Checks if the argument is greater than the value specified in the argument.For example: +(LOT,QTY) GREATERTHAN + 1. Please pay attention to the \"+\"-sign on both sides to enable number comparison.\n\n"
+    },
+    "GREATERTHANEQUALTO": {
+        "scope": "escn",
+        "prefix": "GREATERTHANEQUALTO",
+        "body": "GREATERTHANEQUALTO$0",
+        "description": "Checks if the argument is greater than or equal to the value specified in the argument.\n\n"
+    },
+    "INSTRING": {
+        "scope": "escn",
+        "prefix": "INSTRING",
+        "body": "INSTRING$0",
+        "description": "Checks if the property value is contained in the string value specified in the argument.\n\n"
+    },
+    "ISNOTTYPE": {
+        "scope": "escn",
+        "prefix": "ISNOTTYPE",
+        "body": "ISNOTTYPE$0",
+        "description": "Checks if the name of the request specified in the argument is not the same type as the request that is invoking the condition (used in conjunction with the criteria REQUEST or OBJ, REQUEST). For example: (OBJ,REQ) ISNOTTYPE com.eyelit.view.UpdateResourceStatusView.\n\n"
+    },
+    "ISTYPE": {
+        "scope": "escn",
+        "prefix": "ISTYPE",
+        "body": "ISTYPE$0",
+        "description": "Checks if the name of the request specified in the argument is the same type as the request that is invoking the condition (used in conjunction with the criteria REQUEST or OBJ, REQUEST). For example: (OBJ,REQ) ISTYPE com.eyelit.view.PerformMarkFinishedView.\n\n"
+    },
+    "LENGTHEQUALTO": {
+        "scope": "escn",
+        "prefix": "LENGTHEQUALTO",
+        "body": "LENGTHEQUALTO$0",
+        "description": "Checks if the property value is the same as the length specified by the argument.\n\n"
+    },
+    "LESSTHAN": {
+        "scope": "escn",
+        "prefix": "LESSTHAN",
+        "body": "LESSTHAN$0",
+        "description": "Checks if the property value is less than the value specified in the argument. For example: +(LOT,QTY) LESSTHAN + 5. Pay attention to the \"+\"-sign on both sides to enable number comparison.\n\n"
+    },
+    "LESSTHANEQUALTO": {
+        "scope": "escn",
+        "prefix": "LESSTHANEQUALTO",
+        "body": "LESSTHANEQUALTO$0",
+        "description": "Checks if the property value is less or equal to the value specified in the argument.\n\n"
+    },
+    "NOTEQUAL": {
+        "scope": "escn",
+        "prefix": "NOTEQUAL",
+        "body": "NOTEQUAL$0",
+        "description": "Checks if the property value is not equal to the value specified in the argument.\n\n"
+    },
+    "NOTINSTRING": {
+        "scope": "escn",
+        "prefix": "NOTINSTRING",
+        "body": "NOTINSTRING$0",
+        "description": "Checks if the property value is not contained in the string value specified in the argument.\n\n"
+    },
+    "NOTSTARTSWITH": {
+        "scope": "escn",
+        "prefix": "NOTSTARTSWITH",
+        "body": "NOTSTARTSWITH$0",
+        "description": "Checks if the property value does not start with the string value specified in the argument.\n\n"
+    },
+    "STARTSWITH": {
+        "scope": "escn",
+        "prefix": "STARTSWITH",
+        "body": "STARTSWITH$0",
+        "description": "Checks if the property value starts with the string value specified in the argument.\n\n"
+    }
+}
