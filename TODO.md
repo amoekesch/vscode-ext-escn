@@ -1,13 +1,20 @@
 # TODO List
 
 ## Common
+* [Publishing Documentation](https://code.visualstudio.com/docs/extensions/publish-extension#_publishing-extensions)
 * Create Marketplace Description
 * Add Eyelit Icon for Marketplace
 
 ## Highlighting
 * do it all
+* [Ideal REGEX Tester as Ruby-based](http://www.rubular.com/)
+* [VSCode Documentation](https://code.visualstudio.com/docs/extensionAPI/language-support)
+* [TextMate Syntax](https://macromates.com/manual/en/language_grammars)
+* [TextMate Tipes & Tricks](https://www.apeth.com/nonblog/stories/textmatebundle.html)
+* [Monokai Scope Detector](https://tmtheme-editor.herokuapp.com/#!/editor/local/Monokai)
 
 ## Snippets
+* [VSCode Documentation](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 * Add DOM Handling
 * Add common views (multi-line; common parameters, common RES access)
   * com.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView
@@ -54,10 +61,3 @@
 * Add typical context elements (see Eyelit Scenario Guide)
 * Add list of commonly used attributes
 * Add list of commonly used variables
-
----
-
-**NOTE:**
-Documentation on snippets can be found here: [VSCode Snippets Guide](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
-
----
