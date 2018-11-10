@@ -1,32 +1,53 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Eyelit Scenario Script",
-	"patterns": [
-		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#strings"
-		}
-	],
-	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.escn",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.escn",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.escn",
-					"match": "\\\\."
-				}
-			]
-		}
-	},
-	"scopeName": "source.eyelit.scenario.escn"
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "Eyelit Scenario Script",
+    "patterns": [
+        {
+            "include": "#functions"
+        },
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#comments"
+        }
+    ],
+    "repository": {
+        "functions": {
+            "patterns": [
+                {
+                    "name": "support.function.escn",
+                    "match": "\\b(IF_NULL|CONCAT|COALESCE|TO_NUMBER|TO_INT|TO_STRING|TO_DATE|TO_NAME_VALUE|TO_XML|ADD_MSG|SPLIT_STRING|REPLACE_STRING|NEW|ADD|GET|PUT|SET|PEEK|POP|PUSH|DELAY|DIV|MOD|CURRENT_POSITION|SIZE|LENGTH|INCR|DECR|JAXB|XPATH|TO_JSON|SORT|ADD_ALL|MSG)\\b"
+                },
+                {
+                    "name": "support.function.log.escn",
+                    "match": "\\b(LOG)\\b"
+                }
+            ]
+        },
+        "keywords": {
+            "patterns": [{
+                    "name": "keyword.goto.escn",
+                    "match": "\\b(goto|GOTO)\\b"
+                },
+                {
+                    "name": "variable.other.escn",
+                    "match": "(\\$\\w+)"
+                }
+            ]
+        },
+        "comments": {
+            "patterns": [
+                {
+                    "name": "comment.line.escn",
+                    "match": "(#.+)"
+                },
+                {
+                    "name": "comment.line.escn",
+                    "match": "(\\/\\*.+\\*\\/)"
+                }
+            ]
+        }
+    },
+    "scopeName": "source.eyelit.scenario.escn"
 }

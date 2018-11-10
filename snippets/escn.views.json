@@ -13,7 +13,7 @@
         "prefix": "ADSCreateMfdUnitFutureHoldView",
         "body": [
             "com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView",
-            "id=${1:LotID},stage=${2:StageID},stepId=${3:StepID},onEntry=${4:(true,false)},holdCode=${5:HoldCode},description=${6:Comment}$0"
+            "id=${1:LotID},stage=${2:StageID},stepId=${3:StepID},onEntry=${4:|true,false|},holdCode=${5:HoldCode},description=${6:Comment}$0"
         ],
         "description": "Adds a future hold the the given lot at when the lot enters (onEntry=true) or tries to exit (onEntry=false) the given stage and step combination.\n\n"
     },
