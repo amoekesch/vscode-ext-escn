@@ -4,14 +4,14 @@
         "body": [
             "/****************************************************************************************************",
             " * Scenario:    ${1:ScenarioID}",
-            " * Filter:      ${2:FilterConditionID}",
-            " * Trigger:     ${3:TriggeringView}",
-            " * Agent:       ${4:AgentID}",
-            " * Description: ${5:Description}",
+            " * Filter:      ${1:ScenarioID}_FILTER",
+            " * Trigger:     com.eyelit.view.${2:TriggeringView}",
+            " * Agent:       com.eyelit.ext.${3:AgentID}",
+            " * Description: ${4:Description}",
             "**/",
             "",
             "$0"
         ],
-        "description": "Adds a scenartio description header.\n\n"
+        "description": "Adds a scenario description header.\n\n"
     }
 }
