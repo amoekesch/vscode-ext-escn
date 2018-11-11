@@ -43,14 +43,14 @@
     },
     "AGENT.POSTREQUESTSYNCHSCENARIOAGENT": {
         "scope": "escn",
-        "prefix": "com.eyelit.ext.PostRetrieveActionOwnerResponsibilityAgent",
-        "body": "com.eyelit.ext.PostRetrieveActionOwnerResponsibilityAgent$0",
+        "prefix": "com.eyelit.ext.PostRequestSynchScenarioAgent",
+        "body": "com.eyelit.ext.PostRequestSynchScenarioAgent$0",
         "description": "POSTREQUESTSYNCHSCENARIOAGENT Agent - Performs checks for and executes post-execution synchronous Scenarios\n\n"
     },
     "AGENT.POSTRETRIEVEACTIONOWNERRESPONSIBILITYAGENT": {
         "scope": "escn",
-        "prefix": "com.eyelit.ext.",
-        "body": "com.eyelit.ext..$0",
+        "prefix": "com.eyelit.ext.PostRetrieveActionOwnerResponsibilityAgent",
+        "body": "com.eyelit.ext.PostRetrieveActionOwnerResponsibilityAgent$0",
         "description": "POSTRETRIEVEACTIONOWNERRESPONSIBILITYAGENT Agent - Performs post-checks on action owner and responsibility\n\n"
     },
     "AGENT.POSTTRANSACTIONALCONDITIONAGENT": {
