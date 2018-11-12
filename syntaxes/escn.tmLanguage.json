@@ -137,10 +137,6 @@
                     "match": "[\\^,.=~]()"
                 },
                 {
-                    "name": "keyword.operator.escn",
-                    "match": "[\\^,.=~]()"
-                },
-                {
                     "name": "constant.numeric.escn",
                     "match": "[+-]?([0-9]*[.])?[0-9]+"
                 },
