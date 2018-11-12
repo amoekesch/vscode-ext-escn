@@ -17,12 +17,11 @@ If you want to learn more about Eyelit, Eyelit Products and Eyelit Scenario mode
 The Eyelit Scenario Script extension is ready to use on the get go. There is no need for any additional configuration after installing the extension.
 
 ## Contributing
-This project welcomes contributions and suggestions. If you are willing to contribute, drop me a line at [moekesch@gmail.com](mailto:moekesch@gmail.com).
+* This project welcomes contributions and suggestions. If you are willing to contribute, drop me a line at [moekesch@gmail.com](mailto:moekesch@gmail.com).
+* [Project github Repository](https://github.com/amoekesch/vscode-ext-escn)
 
 ## Known Issues
-- Syntax Highlighting is not yet available.
+* [See changelog](https://github.com/amoekesch/vscode-ext-escn/blob/master/CHANGELOG.md)
 
 ## Release Notes
-### Version 0.0.1
-- Initial project and repository setup
-- Basic set of snippets
+* [See changelog](https://github.com/amoekesch/vscode-ext-escn/blob/master/CHANGELOG.md)
