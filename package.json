@@ -2,8 +2,13 @@
     "name": "eyelit-scenario-script",
     "displayName": "Eyelit Scenario Script",
     "description": "Language Support for the Eyelit Scenario Engine",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "andreas-moekesch",
+    "license": "GPLv3",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amoekesch/vscode-ext-escn"
+    },
     "engines": {
         "vscode": "^1.28.0"
     },
