@@ -1,4 +1,7 @@
 # Language support for Eyelit Scenario Script in VSCode
+
+![](https://github.com/amoekesch/vscode-ext-escn/raw/master/escn-animation.gif)
+
 This should provide every scenario noob as well as the nerdy scenario modeler with a solid list of auto-complete snippets and syntax highlighting to avoid commonly made errors or typos. As a list of basic views is provided with a short description, it might even help all noobs out there to identify the correct view and parameters to use.
 
 ## Features
@@ -12,6 +15,8 @@ This should provide every scenario noob as well as the nerdy scenario modeler wi
 ## How to use this extension?
 Install and open [Visual Studio Code](https://code.visualstudio.com). Press `Ctrl+Shift+X` or `Cmd+Shift+X` to open the Extensions pane. Find and install the Eyelit Scenario Script extension. Open any `.escn` file in VS Code. The extension is now activated.
 If you want to learn more about Eyelit, Eyelit Products and Eyelit Scenario modeling, visit [Eyelit.com](https://www.eyelit.com).
+* You can see an example highlighted [HERE](https://github.com/amoekesch/vscode-ext-escn/blob/master/escn-example.jpg)
+* You can download the example script [HERE](https://github.com/amoekesch/vscode-ext-escn/blob/master/escn-example.escn)
 
 ## Customizing the extension features
 The Eyelit Scenario Script extension is ready to use on the get go. There is no need for any additional configuration after installing the extension.
