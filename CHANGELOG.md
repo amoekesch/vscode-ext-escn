@@ -1,18 +1,25 @@
 # Change Log
 
+## Version 0.1.1
+* Release date: November 13, 2018
+* Release status: GA
+
 ## Version 0.1.0
 * Release date: November 12, 2018
 * Release status: GA
 
-## What's new in 0.1.0
-* Well, I guess everything is new
-* Initial Release
+## What's new in 0.1.1
+* Addition Eyelit View Snippets
+* Updated README
+* Added animated gif to show features
+* Added reference to example script
+* Added application icon
 
 ### Contributions and "thank you"
 I would like to thank all users who raised issues, unfortunately there are no users yet. Furthermore, I would like to also thank all contributors helping to push out this very first version. Hold on...there are no contributors yet. But if you would like to contribute, please do so. Visit the [github repository](https://github.com/amoekesch/vscode-ext-escn) to get started.
 
 ## What's new in this version
-As mentioned on top, everything is new. It is the first release of this extension, which contains these features>
+As mentioned on top, everything is new. It is the first release of this extension, which contains these features:
 * Snippets to auto-complete Eyelit functions, container names, contexts, etc.
 * Syntax highlighting
 
