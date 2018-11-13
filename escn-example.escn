@@ -1,0 +1,14 @@
+# ####################################################################################################
+# Scenario:    EXAMPLE_SCENARIO
+# Filter:      EXAMPLE_SCENARIO_FILTER
+# Trigger:     com.eyelit.view.AbortLotView
+# Agent:       com.eyelit.ext.PostRequestSynchScenarioAgent
+# Description: Adds a future hold to a given Lot
+# ##
+
+# VAL: Init Values
+LOT_ID/P=REQ.id,STAGE_ID/P=ABC,STEP_ID/P=DEF
+
+# EXE: Add Future Hold
+com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView
+id=REQ.LOT_ID/P,stage=REQ.STAGE_ID/P,stepId=REQ.STEP_ID/P,onEntry=false,holdCode=ENG,description=Example Hold
