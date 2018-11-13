@@ -25,5 +25,79 @@
             "id=${1:LotID},targetContainer=MfdUnit,code=${2:ScrapCode},quantity=${3:Quantity},childUnitsString=${4:Components}$0"
         ],
         "description": "Scrap components in a Lot. Quantity is mandatory. For unidentified material the View property childUnitsString (comma separated list: e.g. LOT001.01,LOT001.02) is optional.\n\nExample 1 - Identified Material:\ncom.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,code=MON,quantity=2,childUnitsString=REQ.COMPONENTS/P\n\nExample 2 - Un-identified Material:\ncom.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,code=MON,quantity=2\n\n"
+    },
+    "EXE ADSPerformModifyAttributesView": {
+        "scope": "escn",
+        "prefix": "ADSPerformModifyAttributesView",
+        "body": [
+            "com.eyelit.ads.importer.view.ADSPerformModifyAttributesView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer},attrName=${3:AttributeID},attrValue=${4:AttributeValue},delete=${5:|true,false|}$0"
+        ],
+        "description": "Add/remove Attributes to and from Objects. If \"delete\" is set to true, the property \"attrValue\" is not needed.\n\nExample:\ncom.eyelit.ads.importer.view.ADSPerformModifyAttributesView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,attrName=DESIGN_ID,attrValue=MD90182-A\n\n"
+    },
+    "EXE ADSPerformModifyTaskAttributesView": {
+        "scope": "escn",
+        "prefix": "ADSPerformModifyTaskAttributesView",
+        "body": [
+            "com.eyelit.ads.importer.view.ADSPerformModifyTaskAttributesView",
+            "id=${1:TaskID},attrName=${2:AttributeID},attrValue=${3:AttributeValue},delete=${4:|true,false|}$0"
+        ],
+        "description": "Add/remove Attributes to and from Tasks. If \"delete\" is set to true, the property \"attrValue\" is not needed.\n\nExample:\ncom.eyelit.ads.importer.view.ADSPerformModifyTaskAttributesView\nid=REQ.TASK_ID/P,attrName=COUNTER,attrValue=15\n\n"
+    },
+    "EXE ADSPerformModifyVariablesView": {
+        "scope": "escn",
+        "prefix": "ADSPerformModifyVariablesView",
+        "body": [
+            "com.eyelit.ads.importer.view.ADSPerformModifyVariablesView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer},varName=${3:VariableID},varValue=${4:VariableValue},delete=${5:|true,false|}$0"
+        ],
+        "description": "Add/remove Variables to and from Objects. If \"delete\" is set to true, the property \"attrValue\" is not needed.\n\nExample:\ncom.eyelit.ads.importer.view.ADSPerformModifyVariablesView\nid=REQ.PRODUCT_ID/P,targetContainer=Product,varName=REQ.VARIABLE_NAME/P,varValue=REQ.VARIABLE_VALUE/P\n\n"
+    },
+    "EXE AddMfdUnitHoldView": {
+        "scope": "escn",
+        "prefix": "AddMfdUnitHoldView",
+        "body": [
+            "com.eyelit.view.AddMfdUnitHoldView",
+            "id=${1:ObjectID},active=false,holdCode=${2:HoldCode},description=${3:Description}$0"
+        ],
+        "description": "Assign a HOLD to a Lot.\n\nExample:\ncom.eyelit.view.AddMfdUnitHoldView\nid=REQ.HOLD_LOT_ID/P,active=false,holdCode=REQ.HOLD_CODE/P,description=REQ.HOLD_COMMENT/P\n\n"
+    },
+    "EXE ChangeActiveFlagView": {
+        "scope": "escn",
+        "prefix": "ChangeActiveFlagView",
+        "body": [
+            "com.eyelit.view.ChangeActiveFlagView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer},active=${3:|true,false|},holdCode=${4:HoldCode},description=${5:Description}$0"
+        ],
+        "description": "Changes the active flag on a given object.\nFor Lots (MfdUnit) use AddMfdUnitHoldView!\n\nExample:\ncom.eyelit.view.ChangeActiveFlagView\nid=REQ.INHIBITION_ID/P,targetContainer=Inhibition,active=true,holdCode=COUNTER,description=Counter threshold violation detected.\n\n"
+    },
+    "EXE ObjectDetailsView": {
+        "scope": "escn",
+        "prefix": "ObjectDetailsView",
+        "body": [
+            "com.eyelit.view.ObjectDetailsView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer},nestedProperties=${3:|true,false|}$0",
+            "${4:Object}/P=RES.item$0"
+        ],
+        "description": "Retrieve an object.\n\nExample:\ncom.eyelit.view.ObjectDetailsView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,nestedProperties=true\nLOT/P=RES.item,LOT_QTY/P=RES.item.subQty\n\n"
+    },
+    "EXE ScenarioExecutionView": {
+        "scope": "escn",
+        "prefix": "ScenarioExecutionView",
+        "body": [
+            "com.eyelit.view.ScenarioExecutionView",
+            "scenarioNames=${1:ScenarioID},triggeringView=REQUEST$0"
+        ],
+        "description": "Trigger a given Scenario passing in the current view to provide full access to the data and context from within the scenario.\n\nExample:\ncom.eyelit.view.ScenarioExecutionView\nscenarioNames=MY_EXAMPLE_SCENARIO,triggeringView=REQUEST\n\n"
+    },
+    "EXE MfdUnitContentView": {
+        "scope": "escn",
+        "prefix": "MfdUnitContentView",
+        "body": [
+            "com.eyelit.view.MfdUnitContentView",
+            "id=${1:LotID},incrementRefOrder=${2:|true,false|},includeScrapped=${3:|true,false|},includeSplit=${4:|true,false|},includeReworking=${5:|true,false|}",
+            "WAFERS/P=RES.vector"
+        ],
+        "description": "Retrieves a Lots content. Use flags to in-/exclude Scrap, Rework, etc. Wafers. The \"incrementRefOrder\" flag defines if the order returned starts from 0 or 1.\n\nExample:\ncom.eyelit.view.MfdUnitContentView\nid=REQ.LOT_ID/P,incrementRefOrder=true,includeScrapped=false,includeSplit=false,includeReworking=false\nWAFERS/P=RES.vector\n\n"
     }
 }
