@@ -49,7 +49,7 @@
                             "name": "support.variable.ifnull.escn"
                         },
                         "4": {
-                            "name": "keyword.control.ifnull.escn"
+                            "name": "keyword.operator.ifnull.escn"
                         },
                         "5": {
                             "name": "support.variable.ifnull.escn"
@@ -70,16 +70,16 @@
                             "name": "keyword.operator.msg.escn"
                         },
                         "3": {
-                            "name": "support.variable.msg.escn"
+                            "name": "support.function.msg.escn"
                         },
                         "4": {
-                            "name": "support.variable.msg.escn"
+                            "name": "support.function.msg.escn"
                         },
                         "5": {
                             "name": "support.variable.msg.escn"
                         },
                         "6": {
-                            "name": "support.variable.msg.escn"
+                            "name": "support.function.msg.escn"
                         }
                     }
                 },
@@ -88,16 +88,16 @@
                     "match": "\\b(LOG)\\b(\\()(.+)(\\))\\b",
                     "captures": {
                         "1": {
-                            "name": "support.function.log.escn"
+                            "name": "support.class.log.escn"
                         },
                         "2": {
-                            "name": "support.function.log.escn"
+                            "name": "support.class.log.escn"
                         },
                         "3": {
-                            "name": "support.variable.log.escn"
+                            "name": "support.other.log.escn"
                         },
                         "4": {
-                            "name": "support.function.log.escn"
+                            "name": "support.class.log.escn"
                         }
                     }
                 }
@@ -113,23 +113,37 @@
                     "match": "\\b(CONTEXT|REQUEST|EVT|REQ|DC|TASK_DC|SPCCHART|TASK_SPC|LOT|OBJ)\\b"
                 },
                 {
-                    "name": "keyword.control.result.escn",
+                    "name": "support.constant.result.escn",
                     "match": "\\b(RES|RESULT)\\b"
                 },
                 {
-                    "name": "keyword.control.loop.escn",
+                    "name": "variable.other.loop.escn",
                     "match": "\\b(SCENARIO_LOOP_ELEMENT|SCENARIO_LOOP_CONTROL|SCENARIO_LOOP_ELEMENT|SCENARIO_LOOP_MAX)\\b"
                 },
                 {
-                    "name": "keyword.other.blockdescriptor.escn",
-                    "match": "([\\w]+\\:)"
+                    "name": "comment.block.blockdescriptor.escn",
+                    "match": "(#)(\\s+{0,})(\\w+:)(.+)",
+                    "captures": {
+                        "1": {
+                            "name": "comment.block.blockdescriptor.escn"
+                        },
+                        "2": {
+                            "name": "comment.block.blockdescriptor.escn"
+                        },
+                        "3": {
+                            "name": "omment.line.blockdescriptor.escn"
+                        },
+                        "4": {
+                            "name": "comment.block.blockdescriptor.escn"
+                        }
+                    }
                 },
                 {
-                    "name": "keyword.control.package.escn",
+                    "name": "entity.other.package.escn",
                     "match": "\\b(de|com|net|org|java|javax)\\b\\.+(\\w+\\.?){1,}"
                 },
                 {
-                    "name": "variable.other.keyword.escn",
+                    "name": "string.other.keyword.escn",
                     "match": "\\b(EMPTY_VECTOR|EMPTY_STRING|NEWLINE|COMMA|SPACE|null)\\b"
                 },
                 {
@@ -141,7 +155,7 @@
                     "match": "[+-]?([0-9]*[.])?[0-9]+"
                 },
                 {
-                    "name": "support.function.nocache.escn",
+                    "name": "support.type.nocache.escn",
                     "match": "(\\/S)"
                 },
                 {
@@ -149,11 +163,11 @@
                     "match": "\\b(\\/P|\\/TP|\\/ELE)\\b"
                 },
                 {
-                    "name": "keyword.control.container.escn",
+                    "name": "variable.language.container.escn",
                     "match": " \\b(Action|Action_Category|ActionHub|ActionRequestContainer|ActionRequestTypeContainer|ActionType|Activity|Agent|AR_Status|ArchivePurge|ArchiveRun|Area|Attribute|Basket|Bom|BOMCategory|Calendar|CAP|CAPA|Capa_Category|Capa_Type|Case|CaseList|Cassette|Cassette_Category|CassetteState|CassetteType|Category_Type|ChildConsumableUnit|Condition|Condition_Category|Configuration|Consumable|ConsumableCategory|ConsumableUnit|Context|CPAR_Task|CreateDedicationCode|CreateInhibCode|Criteria|Criteria_Category|Customer|DatabaseColumn|DatabaseTable|DatabaseView|DataSpecification|DecisionHub|DefectCode|DefectCode_Category|Department|Device|Device_Category|Device_Category_Group|DisableDedicationCode|DisableInhibCode|DispatchParameter|DispatchRule|DispatchRuleCategory|DispatchRuleGroup|DocBlobCategory|DocumentBlob|EmploymentStatus|EnableDedicationCode|EnableInhibCode|EncapsulatedEvent|EncapsulatedEventCategory|EncapsulatedEventParameter|EventRedirect|Form|Form_Category|Form_Template|Form_Value|FutureComment|FutureHold|FutureSkipStep|GeneralResourceState|GeneralResourceSubState|Group|HoldCode|ImageMap|ImageMapCategory|Inhibition|Job|JobSchedule|Kpi|KPI_Alert|KPI_Group|LMSRule|Loop|Message|MessageCategory|MfdUnit|MfgStage|MfgStage|MfgStageCategory|ObjectType|Operation|Operation_Category|OperationType|Printer|Product|Product_Category|ProductType|Profile|QPAR_Status|Query|QueryCategory|RDA|Recipe|RecipeCategory|RecipeParameter|RecipeTemplate|RecipeTemplateCategory|ReleaseCode|Report|ReportCategory|Request|Reservation|ResolutionCode|ResolutionCode_Category|Resource_Capability|ResourcePriority|ResourceState|ResourceSubState|Reticle|Reticle_Category|ReticlePod|ReticlePodCategory|ReworkCode|RunValue|SamplingPlan|Scenario|ScenarioCategory|ScrapCode|Shift|SignatureHub|SignatureState|Site|SparePart|SparePartCategory|SPC|SPCAnnotation|SPCCategory|SPCFilter|SplitCode|Step|Step_Category|SubArea|Subject|SubRecipe|SubRecipeCategory|Supplier|SupplierCategory|SWR|SWRSetLotStructDef|SWRStepStructure|Task|TaskOperation|ToolAlarm|ToolAlarmCategory|ToolRelation|ToolRunDataset|ToolTransition|Training_Category|TrainingDocument|TrainingDocumentState|TrainingReviewSchedule|TrainingSchedule|TrainingState|Transaction|TransService|UIEvent|UIEventCategory|UIFilter|UISorter|UITableDescriptor|UnscrapCode|User|User_Category|UserEmploymentStatus|UserSection|UserShift|ValueSpec|Variable|WIPCategory|WIPState|WIPType|Workflow|Workflow_Category|WorkOrder|WorkOrderCategory|WorkOrderElement)\\b"
                 },
                 {
-                    "name": "constant.character.dollar.escn",
+                    "name": "variable.other.dollar.escn",
                     "match": "\\$"
                 }
             ]
@@ -161,7 +175,7 @@
         "comments": {
             "patterns": [
                 {
-                    "name": "comment.line.hash.escn",
+                    "name": "comment.block.hash.escn",
                     "match": "(#.+)"
                 }
             ]
