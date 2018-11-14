@@ -2,7 +2,7 @@
     "name": "eyelit-scenario-script",
     "displayName": "Eyelit Scenario Script",
     "description": "Language Support for the Eyelit Scenario Engine",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "andreas-moekesch",
     "license": "GPLv3",
     "author": {

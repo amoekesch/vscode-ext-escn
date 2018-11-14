@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.1.2
+* Release date: November 14, 2018
+* Release status: GA
+
 ## Version 0.1.1
 * Release date: November 13, 2018
 * Release status: GA
@@ -8,12 +12,8 @@
 * Release date: November 12, 2018
 * Release status: GA
 
-## What's new in 0.1.1
-* Addition Eyelit View Snippets
-* Updated README
-* Added animated gif to show features
-* Added reference to example script
-* Added application icon
+## What's new in 0.1.2
+* Preparation of scopes for Eyelit Scenario Theme
 
 ### Contributions and "thank you"
 I would like to thank all users who raised issues, unfortunately there are no users yet. Furthermore, I would like to also thank all contributors helping to push out this very first version. Hold on...there are no contributors yet. But if you would like to contribute, please do so. Visit the [github repository](https://github.com/amoekesch/vscode-ext-escn) to get started.
