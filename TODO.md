@@ -6,6 +6,7 @@
 * Scenario to .escn Script (Report)
 
 ## Highlighting and Grammar
+* Include ron-once flag in grammer and highlighting
 * Create Theme
 * Code Folding not working
 

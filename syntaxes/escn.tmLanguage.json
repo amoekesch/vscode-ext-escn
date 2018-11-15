@@ -19,7 +19,7 @@
             "patterns": [
                 {
                     "name": "support.function.common.escn",
-                    "match": "\\b(LOG|TO_NUMBER|TO_INT|TO_DATE|TO_STRING|TO_JSON|JAXB|GET|SET|PUT|ADD|NEW|CONCAT|COALESCE|NESTED_LIST|XPATH|SPLIT_STRING|REPLACE_STRING|TO_NAME_VALUE|PEEK|POP|PUSH|DELAY|DIV|MOD|INCR|CURRENT_POSITION|SIZE|LENGTH|SORT|ADD_ALL)\\b(\\()(.+)(\\))\\b",
+                    "match": "\\b(LOG|TO_NUMBER|TO_INT|TO_DATE|TO_STRING|TO_JSON|JAXB|GET|SET|PUT|ADD|NEW|CONCAT|COALESCE|NESTED_LIST|XPATH|SPLIT_STRING|REPLACE_STRING|TO_NAME_VALUE|PEEK|POP|PUSH|DELAY|DIV|MOD|INCR|CURRENT_POSITION|SIZE|LENGTH|SORT|ADD_ALL)\\b(\\()([^,\\)]+)\b(\\))",
                     "captures": {
                         "1": {
                             "name": "support.function.common.escn"
@@ -37,7 +37,7 @@
                 },
                 {
                     "name": "support.function.ifnull.escn",
-                    "match": "\\b(IF_NULL)(\\()([^\\~]+)(\\~)([^\\~\\)]+)(\\))\\b",
+                    "match": "\\b(IF_NULL)\\b(\\()([^\\~]+)(\\~)([^\\~\\)]+)\\b(\\))",
                     "captures": {
                         "1": {
                             "name": "support.function.ifnull.escn"
@@ -61,7 +61,7 @@
                 },
                 {
                     "name": "support.function.msg.escn",
-                    "match": "\\b(MSG)\\b(\\.)\\b(\\S+)\\b(\\()(.*?)(\\))\\b",
+                    "match": "\\b(MSG)\\b(\\.)\\b([^\\(]+)\\b(\\()([^\\)]*)(\\))",
                     "captures": {
                         "1": {
                             "name": "keyword.control.msg.escn"
@@ -85,7 +85,7 @@
                 },
                 {
                     "name": "support.function.log.escn",
-                    "match": "\\b(LOG)\\b(\\()(.+)(\\))\\b",
+                    "match": "\\b(LOG)\\b(\\()([^\\)]*)\b(\\))",
                     "captures": {
                         "1": {
                             "name": "support.class.log.escn"
