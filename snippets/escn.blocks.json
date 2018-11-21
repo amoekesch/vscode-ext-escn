@@ -1,7 +1,11 @@
 {
     "BLOCK.COMMENT": {
         "prefix": "Comment",
-        "body": "# ${1:Type}: ${2:Notes}$0",
+        "body": [
+            "# ${1:Type}: ${2:Notes}",
+            "# Run Once: ${3:|true,false|}",
+            "$0"
+        ],
         "description": "Creates a line comment for a block.\nExample: # VAL: Init\n\n"
     },
 

@@ -1,7 +1,7 @@
 {
     "EXE ADSChangeToolStatusView": {
         "scope": "escn",
-        "prefix": "ADSChangeToolStatusView",
+        "prefix": "com.eyelit.ads.importer.view.ADSChangeToolStatusView",
         "body": [
             "com.eyelit.ads.importer.view.ADSChangeToolStatusView",
             "id=${1:ToolID},state=${2:state},subState=${3:subState},description=${4:statusMessage}$0"
@@ -10,7 +10,7 @@
     },
     "EXE ADSCreateMfdUnitFutureHoldView": {
         "scope": "escn",
-        "prefix": "ADSCreateMfdUnitFutureHoldView",
+        "prefix": "com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView",
         "body": [
             "com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView",
             "id=${1:LotID},stage=${2:StageID},stepId=${3:StepID},onEntry=${4:|true,false|},holdCode=${5:HoldCode},description=${6:Comment}$0"
@@ -19,7 +19,7 @@
     },
     "EXE ADSPerformMfdUnitScrapView": {
         "scope": "escn",
-        "prefix": "ADSPerformMfdUnitScrapView",
+        "prefix": "com.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView",
         "body": [
             "com.eyelit.ads.importer.view.ADSPerformMfdUnitScrapView",
             "id=${1:LotID},targetContainer=MfdUnit,code=${2:ScrapCode},quantity=${3:Quantity},childUnitsString=${4:Components}$0"
@@ -28,7 +28,7 @@
     },
     "EXE ADSPerformModifyAttributesView": {
         "scope": "escn",
-        "prefix": "ADSPerformModifyAttributesView",
+        "prefix": "com.eyelit.ads.importer.view.ADSPerformModifyAttributesView",
         "body": [
             "com.eyelit.ads.importer.view.ADSPerformModifyAttributesView",
             "id=${1:ObjectID},targetContainer=${2:TargetContainer},attrName=${3:AttributeID},attrValue=${4:AttributeValue},delete=${5:|true,false|}$0"
@@ -37,7 +37,7 @@
     },
     "EXE ADSPerformModifyTaskAttributesView": {
         "scope": "escn",
-        "prefix": "ADSPerformModifyTaskAttributesView",
+        "prefix": "com.eyelit.ads.importer.view.ADSPerformModifyTaskAttributesView",
         "body": [
             "com.eyelit.ads.importer.view.ADSPerformModifyTaskAttributesView",
             "id=${1:TaskID},attrName=${2:AttributeID},attrValue=${3:AttributeValue},delete=${4:|true,false|}$0"
@@ -46,7 +46,7 @@
     },
     "EXE ADSPerformModifyVariablesView": {
         "scope": "escn",
-        "prefix": "ADSPerformModifyVariablesView",
+        "prefix": "com.eyelit.ads.importer.view.ADSPerformModifyVariablesView",
         "body": [
             "com.eyelit.ads.importer.view.ADSPerformModifyVariablesView",
             "id=${1:ObjectID},targetContainer=${2:TargetContainer},varName=${3:VariableID},varValue=${4:VariableValue},delete=${5:|true,false|}$0"
@@ -55,7 +55,7 @@
     },
     "EXE AddMfdUnitHoldView": {
         "scope": "escn",
-        "prefix": "AddMfdUnitHoldView",
+        "prefix": "com.eyelit.view.AddMfdUnitHoldView",
         "body": [
             "com.eyelit.view.AddMfdUnitHoldView",
             "id=${1:ObjectID},active=false,holdCode=${2:HoldCode},description=${3:Description}$0"
@@ -64,7 +64,7 @@
     },
     "EXE ChangeActiveFlagView": {
         "scope": "escn",
-        "prefix": "ChangeActiveFlagView",
+        "prefix": "com.eyelit.view.ChangeActiveFlagView",
         "body": [
             "com.eyelit.view.ChangeActiveFlagView",
             "id=${1:ObjectID},targetContainer=${2:TargetContainer},active=${3:|true,false|},holdCode=${4:HoldCode},description=${5:Description}$0"
@@ -73,7 +73,7 @@
     },
     "EXE ObjectDetailsView": {
         "scope": "escn",
-        "prefix": "ObjectDetailsView",
+        "prefix": "com.eyelit.view.ObjectDetailsView",
         "body": [
             "com.eyelit.view.ObjectDetailsView",
             "id=${1:ObjectID},targetContainer=${2:TargetContainer},nestedProperties=${3:|true,false|}$0",
@@ -83,7 +83,7 @@
     },
     "EXE ScenarioExecutionView": {
         "scope": "escn",
-        "prefix": "ScenarioExecutionView",
+        "prefix": "com.eyelit.view.ScenarioExecutionView",
         "body": [
             "com.eyelit.view.ScenarioExecutionView",
             "scenarioNames=${1:ScenarioID},triggeringView=REQUEST$0"
@@ -92,7 +92,7 @@
     },
     "EXE MfdUnitContentView": {
         "scope": "escn",
-        "prefix": "MfdUnitContentView",
+        "prefix": "com.eyelit.view.MfdUnitContentView",
         "body": [
             "com.eyelit.view.MfdUnitContentView",
             "id=${1:LotID},incrementRefOrder=${2:|true,false|},includeScrapped=${3:|true,false|},includeSplit=${4:|true,false|},includeReworking=${5:|true,false|}",
