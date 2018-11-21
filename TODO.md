@@ -1,12 +1,9 @@
 # TODO List
 
 ## Common
-* Create Marketplace Description
-* Add Eyelit Icon for Marketplace
 * Scenario to .escn Script (Report)
 
 ## Highlighting and Grammar
-* Include ron-once flag in grammer and highlighting
 * Create Theme
 * Code Folding not working
 

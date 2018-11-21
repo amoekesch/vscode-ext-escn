@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 0.1.4
+* Release date: November 21, 2018
+* Release status: GA
+* Added Snippets
+* Preparation of Custom Eyelit Theme
+
 ## Version 0.1.3
 * Release date: November 15, 2018
 * Release status: GA
@@ -25,8 +31,8 @@
 I would like to thank all users who raised issues, unfortunately there are no users yet. Furthermore, I would like to also thank all contributors helping to push out this very first version. Hold on...there are no contributors yet. But if you would like to contribute, please do so. Visit the [github repository](https://github.com/amoekesch/vscode-ext-escn) to get started.
 
 ## What's new in this version
-As mentioned on top, everything is new. It is the first release of this extension, which contains these features:
-
+* Optimized several snippets
+* Prepared scopes for new Eyelit Theme
 
 ## Upcoming changes and features
 * Auto complete for more of the commonly used Eyelit Views
