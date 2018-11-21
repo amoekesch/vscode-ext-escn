@@ -11,9 +11,12 @@ This should provide every scenario noob as well as the nerdy scenario modeler wi
 ### Code Editing
 - Code Snippets for quick coding
 - Syntax Highlighting
+### Theme
+- Optimized highlighting with "Eyelit Scenario Script Theme"
 
 ## How to use this extension?
-Install and open [Visual Studio Code](https://code.visualstudio.com). Press `Ctrl+Shift+X` or `Cmd+Shift+X` to open the Extensions pane. Find and install the Eyelit Scenario Script extension. Open any `.escn` file in VS Code. The extension is now activated.
+Install and open [Visual Studio Code](https://code.visualstudio.com). Press `Ctrl+Shift+X` or `Cmd+Shift+X` to open the Extensions pane. Find and install the Eyelit Scenario Script extension. Open any `.escn` file in VS Code. The extension is now activated. Ofg course you can always manually switch the current language mode in your editor to "Eyelit Scenario Script".
+For optimized highlighting, the extension comes pre-packaged wityh its own theme. Open your VS Code preferences and switch the theme to "Eyelit Scenario Script Theme" to enable it.
 If you want to learn more about Eyelit, Eyelit Products and Eyelit Scenario modeling, visit [Eyelit.com](https://www.eyelit.com).
 * You can see an example highlighted [HERE](https://github.com/amoekesch/vscode-ext-escn/blob/master/escn-example.jpg)
 * You can download the example script [HERE](https://github.com/amoekesch/vscode-ext-escn/blob/master/escn-example.escn)
