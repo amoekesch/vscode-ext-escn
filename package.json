@@ -2,7 +2,7 @@
     "name": "eyelit-scenario-script",
     "displayName": "Eyelit Scenario Script",
     "description": "Language Support for the Eyelit Scenario Engine",
-    "version": "0.1.4",
+    "version": "1.0.0",
     "publisher": "andreas-moekesch",
     "license": "GPLv3",
     "author": {
@@ -21,6 +21,11 @@
         "Programming Languages"
     ],
     "contributes": {
+        "themes": [{
+            "label": "Eyelit Scenario Script Theme",
+            "uiTheme": "vs",
+            "path": "./themes/Eyelit Scenario Script Theme-color-theme.json"
+        }],
         "languages": [{
             "id": "escn",
             "aliases": ["Eyelit Scenario Script", "escn"],

@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 1.0.0
+* Release date: November 21, 2018
+* Release status: GA
+* Added Eyelit Script Theme
+
 ## Version 0.1.4
 * Release date: November 21, 2018
 * Release status: GA
@@ -31,16 +36,14 @@
 I would like to thank all users who raised issues, unfortunately there are no users yet. Furthermore, I would like to also thank all contributors helping to push out this very first version. Hold on...there are no contributors yet. But if you would like to contribute, please do so. Visit the [github repository](https://github.com/amoekesch/vscode-ext-escn) to get started.
 
 ## What's new in this version
-* Optimized several snippets
-* Prepared scopes for new Eyelit Theme
+* Eyelit Script Theme (based on Theme: 3024 Day)
 
 ## Upcoming changes and features
 * Auto complete for more of the commonly used Eyelit Views
 * Code folding
-* Custom theme
 
 ## Fixed Issues
-* Detection of Functions and Highlighting
+* None
 
 ## Known Issues
 * None
