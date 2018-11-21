@@ -3,12 +3,34 @@
 # Filter:      EXAMPLE_SCENARIO_FILTER
 # Trigger:     com.eyelit.view.AbortLotView
 # Agent:       com.eyelit.ext.PostRequestSynchScenarioAgent
-# Description: Adds a future hold to a given Lot
+# Description: Adds a future hold to a given Lot and checks the Lot's QTY to decide if an immediate hold must be added
 # ##
 
 # VAL: Init Values
+# Run Once: true
 LOT_ID/P=REQ.id,STAGE_ID/P=ABC,STEP_ID/P=DEF
 
 # EXE: Add Future Hold
+# Run Once: true
 com.eyelit.ads.importer.view.ADSCreateMfdUnitFutureHoldView
 id=REQ.LOT_ID/P,stage=REQ.STAGE_ID/P,stepId=REQ.STEP_ID/P,onEntry=false,holdCode=ENG,description=Example Hold
+
+# EXE: Get Lot Details
+# Run Once: true
+com.eyelit.view.ObjectDetailsView
+id=REQ.LOT_ID/P,targetContainer=MfdUnit,nestedProperties=true
+MYLOT/P=RES.item,QTY/P=GET(REQ.MYLOT/P subQty),LOG(Lot Quantity: REQ.LOT/P)
+
+# Condition: EXAMPLE_SCENARIO_QTY_25
+# Run Once: true
+if +(REQ,QTY) == +25 GOTO "COMPLETE"
+if +(REQ,QTY) != +25 GOTO "Hold Lot"
+
+# EXE: Hold Lot
+# Run Once: true
+com.eyelit.view.AddMfdUnitHoldView
+id=REQ.LOT_ID/P,active=false,holdCode=ENG,description=Some Example
+
+# VAL: COMPLETE
+# Run Once: true
+--
