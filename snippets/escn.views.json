@@ -76,7 +76,7 @@
         "prefix": "com.eyelit.view.ObjectDetailsView",
         "body": [
             "com.eyelit.view.ObjectDetailsView",
-            "id=${1:ObjectID},targetContainer=${2:TargetContainer},nestedProperties=${3:|true,false|}$0",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer},nestedProperties=${3:|true,false|}",
             "${4:Object}/P=RES.item$0"
         ],
         "description": "Retrieve an object.\n\nExample:\ncom.eyelit.view.ObjectDetailsView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,nestedProperties=true\nLOT/P=RES.item,LOT_QTY/P=RES.item.subQty\n\n"
@@ -96,8 +96,158 @@
         "body": [
             "com.eyelit.view.MfdUnitContentView",
             "id=${1:LotID},incrementRefOrder=${2:|true,false|},includeScrapped=${3:|true,false|},includeSplit=${4:|true,false|},includeReworking=${5:|true,false|}",
-            "WAFERS/P=RES.vector"
+            "EMPTY_VECTOR/P=NEW(java.util.Vector),WAFERS/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)$0"
         ],
-        "description": "Retrieves a Lots content. Use flags to in-/exclude Scrap, Rework, etc. Wafers. The \"incrementRefOrder\" flag defines if the order returned starts from 0 or 1.\n\nExample:\ncom.eyelit.view.MfdUnitContentView\nid=REQ.LOT_ID/P,incrementRefOrder=true,includeScrapped=false,includeSplit=false,includeReworking=false\nWAFERS/P=RES.vector\n\n"
+        "description": "Retrieves a Lots content. Use flags to in-/exclude Scrap, Rework, etc. Wafers. The \"incrementRefOrder\" flag defines if the order returned starts from 0 or 1.\n\nExample:\ncom.eyelit.view.MfdUnitContentView\nid=REQ.LOT_ID/P,incrementRefOrder=true,includeScrapped=false,includeSplit=false,includeReworking=false\nEMPTY_VECTOR/P=NEW(java.util.Vector),WAFERS/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)\n\n"
+    },
+    "EXE DefaultObjectUpdateView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.DefaultObjectUpdateView",
+        "body": [
+            "com.eyelit.view.DefaultObjectUpdateView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer},item=${3:ItemObject},description=${4:Comment},OVERRIDE_FROZEN/P=TRUE$0"
+        ],
+        "description": "Updates an Object. Retrieve the item first using ObjectDetailsView the update single properties before calling DefaultObjectUpdateView. \n\nExample:\ncom.eyelit.view.DefaultObjectUpdateView\nid=REQ.RTP_ID/P,targetContainer=RecipeTemplate,item=REQ.RTP/P,description=Updateing some Recipe Template,OVERRIDE_FROZEN/P=TRUE\n\n"
+    },
+    "EXE AttributeReferencesView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.AttributeReferencesView",
+        "body": [
+            "com.eyelit.view.AttributeReferencesView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer}",
+            "EMPTY_VECTOR/P=NEW(java.util.Vector),ATTRIBUTES/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)$0"
+        ],
+        "description": "Retrieves all Attributes of a given object.\n\nExample:\ncom.eyelit.view.AttributeReferencesView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit\nEMPTY_VECTOR/P=NEW(java.util.Vector),ATTRIBUTES/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)\n\n"
+    },
+    "EXE ChangeMfdUnitStateView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.ChangeMfdUnitStateView",
+        "body": [
+            "com.eyelit.view.ChangeMfdUnitStateView",
+            "id=${1:LotID},state=${2:State}$0"
+        ],
+        "description": "Change the lot state. To avoid pre-conditions from stopping you, append byPassRules=true\n\nExample:\ncom.eyelit.view.ChangeMfdUnitStateView\nid=REQ.LOT_ID/P,state=AVAIL\n\n"
+    },
+    "EXE ChangeResourceStatusView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.ChangeResourceStatusView",
+        "body": [
+            "com.eyelit.view.ChangeResourceStatusView",
+            "id=${1:ResourceID},targetContainer=${2:TargetContainer},status=${3:Status},subState=${4:SubStatus},updateParent=${5:|true,false|},updateChildren=${6:|true,false|},description=${7:Description}$0"
+        ],
+        "description": "Change the state and (optionally) sub-state of a resource (Note: Not generic resource).\n\nExample:\ncom.eyelit.view.ChangeResourceStatusView\nid=REQ.TOOL_ID/P,targetContainer=Device,status=UP,subState=PRD,updateParent=false,updateChildren=false,description=Automated Tool Status Change\n\n"
+    },
+    "EXE UpdateGeneralResourceStatusView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.UpdateGeneralResourceStatusView",
+        "body": [
+            "com.eyelit.view.UpdateGeneralResourceStatusView",
+            "id=${1:ResourceID},targetContainer=${2:TargetContainer},readItem=true,nestedProperties=true,updateStateAndCommentsOnly=true,item.id=${1:ResourceID},item.state=${3:Status},item.subState=${4:SubStatus},item.comments=${5:Description}$0"
+        ],
+        "description": "Change the state and (optionally) sub-state of a generic resource.\n\nExample:\ncom.eyelit.view.UpdateGeneralResourceStatusView\nid=REQ.RETICLE_ID/P,targetContainer=Reticle,readItem=true,nestedProperties=true,updateStateAndCommentsOnly=true,item.id=REQ.RETICLE_ID/P,item.state=UP,item.subState=PRD,item.comments=Automated Tool Status Change\n\n"
+    },
+    "EXE ChangeMfdUnitProductView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.ChangeMfdUnitProductView",
+        "body": [
+            "com.eyelit.view.ChangeMfdUnitProductView",
+            "id=${1:LotID},readItem=true,productId=${2:ProductID},productVersion=${3:Version},description=${4:Description},CURRENT_CASE/P=${5:Case}$0"
+        ],
+        "description": "Change the product of a lot.\n\nExample:\ncom.eyelit.view.ChangeMfdUnitProductView\nid=REQ.LOT_ID/P,readItem=true,productId=M918642-1,productVersion=3,description=Automated Product Change,CURRENT_CASE/P=INITIAL\n\n"
+    },
+    "EXE PerformMfdUnitAdHocRepositionView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.PerformMfdUnitAdHocRepositionView",
+        "body": [
+            "com.eyelit.view.PerformMfdUnitAdHocRepositionView",
+            "id=${1:LotID},targetContainer=MfdUnit,stage=${2:StageID},stepId=${3:StepID},description=${4:Description},CURRENT_CASE/P=${5:Case}$0"
+        ],
+        "description": "Reposition the lot to a given Stage and Step.\n\nExample:\ncom.eyelit.view.PerformMfdUnitAdHocRepositionView\nid=REQ.LOT_ID/P,targetContainer=MfdUnit,stage=ALOX,stepId=CLN01,description=Automated Product Change,CURRENT_CASE/P=INITIAL\n\n"
+    },
+    "EXE HoldTaskSAView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.HoldTaskSAView",
+        "body": [
+            "com.eyelit.view.HoldTaskSAView",
+            "id=${1:TaskID},targetContainer=Task,comments=${2:Description}$0"
+        ],
+        "description": "Set the Task execution on a HOLD.\n\nExample:\ncom.eyelit.view.HoldTaskSAView\nid=CONCAT(REQ.ACTIVITY_ID/P ~ REQ.RESOURCE_ID/P),targetContainer=Task,description=Setting Task on HOLD\n\n"
+    },
+    "EXE ContainerReferencesView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.ContainerReferencesView",
+        "body": [
+            "com.eyelit.view.ContainerReferencesView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer},referenceName=${3:ChildContainer}",
+            "EMPTY_VECTOR/P=NEW(java.util.Vector),${4:ResultParameter}/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)$0"
+        ],
+        "description": "Retrieves references of the given type. E.g. all objects in a catgeory.\n\nExample:\ncom.eyelit.view.ContainerReferencesView\nid=REQ.CATEGORY_ID/P,targetContainer=RecipeTemplateCategory,referenceName=RecipeTemplate\nEMPTY_VECTOR/P=NEW(java.util.Vector),RECIPE_TEMPLATES/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)\n\n"
+    },
+    "EXE ObjectAttributesView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.ObjectAttributesView",
+        "body": [
+            "com.eyelit.view.ObjectAttributesView",
+            "id=${1:ObjectID},targetContainer=${2:TargetContainer}",
+            "EMPTY_VECTOR/P=NEW(java.util.Vector),${3:ResultParameter}/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)$0"
+        ],
+        "description": "Retrieves attributes for a given Container.\n\nExample:\ncom.eyelit.view.ObjectAttributesView\nid=REQ.CONSUMABLE_UNIT_ID/P,targetContainer=ConsumableUnit\nEMPTY_VECTOR/P=NEW(java.util.Vector),ATTRIBUTES/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)\n\n"
+    },
+    "EXE RetrieveObjectView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.RetrieveObjectView",
+        "body": [
+            "com.eyelit.view.RetrieveObjectView",
+            "objectType=${1:ObjectType},propertyType=PROPERTY,propertyName=id,propertyValue=${2:ObjectId},nestedProperties=true",
+            "${3:ResultParameter}_EXISTS/P=TO_STRING(RES.exists),${3:ResultParameter}_ITEM/P=RES.item$0"
+        ],
+        "description": "Allows to verify if an object exists and retrieve its details item.\n\nExample:\ncom.eyelit.view.RetrieveObjectView\nobjectType=USER,propertyType=PROPERTY,propertyName=id,propertyValue=REQ.USER_ID/P,nestedProperties=true\nUSER_EXISTS/P=RES.exists,USER/P=IF_NULL(RES.item~EMPTY_STRING)\n\n"
+    },
+    "EXE RetrieveObjectByAliasView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.RetrieveObjectByAliasView",
+        "body": [
+            "com.eyelit.view.RetrieveObjectByAliasView",
+            "alias=${1:ObjectAlias},objectType=${2:ObjectType}",
+            "${3:ResultParameter}_ITEM/P=RES.item,${3:ResultParameter}_ID/P=GET(REQ.${3:ResultParameter}_ITEM/P id)$0"
+        ],
+        "description": "Retrieve an object by its alias.\n\nExample:\ncom.eyelit.view.RetrieveObjectByAliasView\nalias=REQ.LOT_ALIAS/P,objectType=MFDUNIT\nLOT_ITEM/P=RES.item,LOT_ID/P=GET(REQ.LOT_ITEM/P id)\n\n"
+    },
+    "EXE RetrieveObjectsByPropertyView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.RetrieveObjectsByPropertyView",
+        "body": [
+            "com.eyelit.view.RetrieveObjectsByPropertyView",
+            "objectType=${1:ObjectType},propertyType=${2:|PROPERTY,ATTRIBUTE,VARIABLE|},propertyName=${3:PropertyName},propertyValue=${4:PropertyValue}",
+            "EMPTY_VECTOR/P=NEW(java.util.Vector),${5:ResultParameter}/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)$0"
+        ],
+        "description": "Retrieve a list of objects that have a specific object property, or Variable/Attribute and value attached.\n\nExample by Property:\ncom.eyelit.view.RetrieveObjectsByPropertyView\nobjectType=MFDUNIT,propertyType=PROPERTY,propertyName=priority,propertyValue=1\nEMPTY_VECTOR/P=NEW(java.util.Vector),LOTS/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)\n\nExample by Attribute:\ncom.eyelit.view.RetrieveObjectsByPropertyView\nobjectType=TASK,propertyType=ATTRIBUTE,propertyName=TASK_RUN_ID,propertyValue=12000009\nEMPTY_VECTOR/P=NEW(java.util.Vector),TASKS/P=IF_NULL(RES.vector~REQ.EMPTY_VECTOR/P)\n\n"
+    },
+    "EXE AutomationPerformNextView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.AutomationPerformNextView",
+        "body": [
+            "com.eyelit.view.AutomationPerformNextView",
+            "id=${1:LotID}"
+        ],
+        "description": "Track a lot.\n\nExample:\ncom.eyelit.view.AutomationPerformNextView\nid=M0000190\n\n"
+    },
+    "EXE SendMailView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.SendMailView",
+        "body": [
+            "com.eyelit.view.SendMailView",
+            "to=${1:Receiver},subject=${2:Subject},message=${3:Message},asynchronous=true,globalTID=0$0"
+        ],
+        "description": "Sneds an email message. Make sure the TransSMTP service is configured properly on the BASE to use this functionalit.\n\nImportant Notes:\nThis view does not support resolving email addresses for groups (GROUP.) or users (USER.), which leads to unsent emails. This is a very common modeling error. You'd need to always resolve the email address first or use an EMAIL condition or EMAIL block in a scenario.\nFurthermore, it is recommended to always call this view asynchronously (asynchronous=true,globalTID=0) to avoid performance issues.\nLastly the optional parameter contentType could be added to define the content type of an email as well as the encoding. Emails will be sent as plain text unless the content typ is defined. To send HTML emails use contentType=text/html;charset=UTF-8.\n\nExample:\ncom.eyelit.view.SendMailView\nto=homer@springfieldpowerplant.com,subject=Hello World,message=This is some beautifully written message content.,asynchronous=true,globalTID=0\n\n"
+    },
+    "EXE DisplayMsgView": {
+        "scope": "escn",
+        "prefix": "com.eyelit.view.DisplayMsgView",
+        "body": [
+            "com.eyelit.view.DisplayMsgView",
+            "description=${1:DialogTitle},content=${2:Message},contentType=text/rtf,destinationUrlList=REQ.clientBinding,deliverType=0,blocking=false,globalTID=0,asynchronous=true$0"
+        ],
+        "description": "Send a message to either a defined subject (part of the UI configuration) or a specific UI.\n\nImportant Notes:\nThis view has many options. However, the ones listed above will fill the most common usage which is sending a message to the user (UI) triggering the scenario execution by using the desintationUrlList. The following examples also show howe to use a subject modeled in a user interface. Bith cases do not block the execution of the scenario and open the message in a separate dialog.\n\nExample:\ncom.eyelit.view.DisplayMsgView\ndescription=Success,content=The lot has been set on a hold due to a measurement error.,contentType=text/rtf,destinationUrlList=REQ.clientBinding,deliverType=0,blocking=false,globalTID=0,asynchronous=true\n\nExample:\ncom.eyelit.view.DisplayMsgView\ndescription=Success,content=The lot has been set on a hold due to a measurement error.,contentType=text/rtf,subjectList=AMUI,deliverType=0,blocking=false,globalTID=0,asynchronous=true\n\n"
     }
 }

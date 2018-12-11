@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 1.1.0
+* Release date: December 12, 2018
+* Release status: GA
+* Added Priority 1 Snippets
+
 ## Version 1.0.0
 * Release date: November 21, 2018
 * Release status: GA
@@ -36,14 +41,15 @@
 I would like to thank all users who raised issues, unfortunately there are no users yet. Furthermore, I would like to also thank all contributors helping to push out this very first version. Hold on...there are no contributors yet. But if you would like to contribute, please do so. Visit the [github repository](https://github.com/amoekesch/vscode-ext-escn) to get started.
 
 ## What's new in this version
-* Eyelit Script Theme (based on Theme: 3024 Day)
+* Added new snippets for most commonly used View classes
 
 ## Upcoming changes and features
-* Auto complete for more of the commonly used Eyelit Views
+* Auto complete for more of the less commonly used Eyelit Views
 * Code folding
 
 ## Fixed Issues
-* None
+* Highlighting errors on LOG() functions
+* Highlighting errors on common functions (e.g. GET, TO_NUMBER, etc.)
 
 ## Known Issues
 * None
