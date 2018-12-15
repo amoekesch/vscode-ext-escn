@@ -3,11 +3,11 @@
         "prefix": "Header",
         "body": [
             "# ####################################################################################################",
-            "# Scenario:    ${1:ScenarioID}",
-            "# Filter:      ${1:ScenarioID}_FILTER",
-            "# Trigger:     com.eyelit.view.${2:TriggeringView}",
-            "# Agent:       com.eyelit.ext.${3:AgentID}",
-            "# Description: ${4:Description}",
+            "# Scenario:            ${1:ScenarioID}",
+            "# Filter:              ${1:ScenarioID}_FILTER",
+            "# Triggering View:     com.eyelit.view.${2:TriggeringView}",
+            "# Trigger Type::       AGENT - com.eyelit.ext.${3:AgentID}",
+            "# Description:         ${4:Description}",
             "# ##",
             "",
             "$0"

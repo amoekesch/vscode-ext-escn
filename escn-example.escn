@@ -1,9 +1,13 @@
 # ####################################################################################################
-# Scenario:    EXAMPLE_SCENARIO
-# Filter:      EXAMPLE_SCENARIO_FILTER
-# Trigger:     com.eyelit.view.AbortLotView
-# Agent:       com.eyelit.ext.PostRequestSynchScenarioAgent
-# Description: Adds a future hold to a given Lot and checks the Lot's QTY to decide if an immediate hold must be added
+# Scenario:            EXAMPLE_SCENARIO
+# Filter:              EXAMPLE_SCENARIO_FILTER
+# Triggering View:     com.eyelit.view.AbortLotView
+# Trigger Type:        AGENT - com.eyelit.ext.PostRequestSynchScenarioAgent
+# Trigger Type:        CONDITION - EXAMPLE_SCENARIO_TRIGGER v1 (OPERATION: DCOP_EXAMPLE v3)
+# Trigger Type:        CONDITION - EXAMPLE_SCENARIO_TRIGGER v1 (OPERATION: DCOP_EXAMPLE v4)
+# Description:         Adds a future hold to a given Lot and checks the Lot's QTY to decide if an immediate hold must be added
+# Created by:          AMOEKESCH
+# Created at:          2018-10-21 12:44:33
 # ##
 
 # VAL: Init Values
